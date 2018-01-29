@@ -119,7 +119,7 @@ class Home extends Component {
           </div>
 
           <div className="section">
-            <img src={ require('../../assets/images/prayer-rope.png') } alt="Prayer rope" style={{ display: 'block', margin: '0 auto' }} />
+            <img src={ require('../../assets/images/prayer-rope.png') } alt="Prayer rope" style={{ display: 'block', maxWidth: '100%', margin: '0 auto' }} />
           </div>
 
         </div>

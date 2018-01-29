@@ -6,6 +6,13 @@ body {
   background: url('./assets/images/concrete-bg.jpg') fixed;
 }
 
+#root {
+  overflow-x: hidden;
+}
+#main {
+  margin-top: -88px; /* To get main to go underneath the navbar */
+}
+
 h1,
 h2,
 h3,
