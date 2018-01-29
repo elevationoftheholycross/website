@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'system';
+
+  background: url('./assets/images/concrete-bg.jpg') fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+a {
+  padding-bottom: 4px;
+  text-decoration: none;
+  background-image: linear-gradient(to top,
+    rgba(183, 28, 28, 0) 11%,
+    rgba(183, 28, 28, .3) 11%,
+    rgba(183, 28, 28, .3) 16%,
+    rgba(183, 28, 28, 0) 16%
+    );
+
+  color: #b71c1c;
+}
