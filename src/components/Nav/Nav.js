@@ -62,9 +62,9 @@ class Nav extends Component {
       <div className="nav-container" style={ this.state.isOpen ? {} : { display: 'none' } }>
         <nav>
           <button onClick={ this.toggleMenu }>
-            <i class="material-icons">&#xE5D2;</i>
+            <i className="material-icons">&#xE5D2;</i>
           </button>
-          
+
           { this.renderLinks() }
         </nav>
       </div>
