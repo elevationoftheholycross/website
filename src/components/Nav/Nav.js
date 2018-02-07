@@ -52,7 +52,7 @@ class Nav extends Component {
         <Link to="/" onClick={ this.toggleMenu }>Home</Link>
         <Link to="/about" onClick={ this.toggleMenu }>About</Link>
         {/* <Link to="/" onClick={ this.toggleMenu }>Ministries</Link> */}
-        <Link to="/" onClick={ this.toggleMenu }>Calendar</Link>
+        <a href="https://calendar.google.com/calendar/embed?src=holycross.oca%40gmail.com&ctz=America%2FLos_Angeles" target="_blank" rel="noopener noreferrer nofollow">Calendar</a>
         <HashLink to="/home#contact" onClick={ this.toggleMenu }>Contact</HashLink>
       </div>
     )
