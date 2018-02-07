@@ -74,7 +74,7 @@ class Home extends Component {
             </div>
           </div>
 
-          <div className="section schedule">
+          <div className="section schedule" id="contact" name="contact">
             <h1 className="section-title">Get in Touch</h1>
             <h2 className="section-subtitle">Join us for services, give us a call, or reach out to us online</h2>
 
@@ -86,7 +86,7 @@ class Home extends Component {
                   9000 Jackson Road<br/>
                   Sacramento, California 95826
                   <p>
-                    <a href="https://google.com" target="_blank" rel="noopener noreferrer">Driving directions</a>
+                    <a href="https://www.google.com/maps/place/Elevation+of+the+Holy+Cross+Orthodox+Church/@38.536261,-121.3692,17z/data=!3m1!4b1!4m5!3m4!1s0x809adbf17af1107f:0x7d5277f1659e8b1d!8m2!3d38.536261!4d-121.367006" target="_blank" rel="noopener noreferrer">Driving directions</a>
                   </p>
                 </span>
               </div>
@@ -106,12 +106,12 @@ class Home extends Component {
               <div className="grid-item three">
                 <h2>Follow us</h2>
                 <span>
-                  <a href="https://google.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+                  <a href="https://www.facebook.com/holycrosssacramento/" target="_blank" rel="noopener noreferrer">Facebook</a>
                   <p>
-                    <a href="https://google.com" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://twitter.com/HolyCrossOCA" target="_blank" rel="noopener noreferrer">Twitter</a>
                   </p>
                   <p>
-                    <a href="https://google.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.instagram.com/holycross.sac/" target="_blank" rel="noopener noreferrer">Instagram</a>
                   </p>
                 </span>
               </div>

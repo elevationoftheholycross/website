@@ -21,6 +21,7 @@ class Routes extends React.Component {
     return (
       <div id="main" className="Routes">
         <Route exact path="/" component={ Home } />
+        <Route exact path="/home" component={ Home } />
         <Route exact path="/about" component={ About } />
         <Route exact path="/welcome" component={ Letter } />
         <Route exact path="/orthodoxy" component={ Orthodoxy } />
