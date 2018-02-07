@@ -1,0 +1,11 @@
+.Orthodoxy {
+  display: flex;
+  justify-content: center; }
+  .Orthodoxy .section {
+    margin-bottom: 32px; }
+    .Orthodoxy .section:last-child {
+      margin-bottom: 0; }
+    .Orthodoxy .section h3 {
+      margin-bottom: 8px; }
+    .Orthodoxy .section p {
+      margin: 0; }

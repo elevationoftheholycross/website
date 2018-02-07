@@ -5,8 +5,8 @@ class Letter extends Component {
 
   render() {
     return (
-      <div className="Page Letter">
-        <div className="letter-container">
+      <div className="Page Blog Letter">
+        <div className="content-container">
           <div className="header">
             <h1>First Time Visitor?</h1>
             <h2>A letter from Father Ian MacKinnon</h2>

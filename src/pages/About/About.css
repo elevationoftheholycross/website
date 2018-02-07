@@ -1,0 +1,9 @@
+.About {
+  display: flex;
+  justify-content: center; }
+  .About .link {
+    margin-bottom: 32px; }
+    .About .link:last-child {
+      margin-bottom: 0; }
+    .About .link p {
+      margin: 0; }
