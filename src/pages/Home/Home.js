@@ -38,7 +38,7 @@ class Home extends Component {
                 It is our great joy to welcome you to Elevation of the Holy Cross Orthodox Christian Church!
               </p>
               <p>
-                <Link to="/">Learn more</Link> about the Orthodox Christian faith, how to attend your first service,
+                <Link to="/welcome">Learn more</Link> about the Orthodox Christian faith, how to attend your first service,
                 and what to expect for your first visit to Elevation of the Holy Cross.
               </p>
             </div>

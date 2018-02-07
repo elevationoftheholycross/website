@@ -1,0 +1,24 @@
+.Letter {
+  display: flex;
+  justify-content: center; }
+  .Letter .letter-container {
+    margin: 64px 32px;
+    padding: 64px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+    .Letter .letter-container .header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+      .Letter .letter-container .header h1 {
+        margin: 0;
+        font-weight: 400;
+        font-size: calc( 18px + 1.5vw); }
+      .Letter .letter-container .header h2 {
+        margin: 8px 0 16px 0;
+        font-weight: 400;
+        font-size: calc( 16px + .8vw);
+        color: rgba(0, 0, 0, 0.7); }
+    .Letter .letter-container .body {
+      max-width: calc( 19px / 1.615 * 60);
+      font-size: 19px;
+      line-height: calc( 19px * 1.615); }
