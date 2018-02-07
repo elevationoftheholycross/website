@@ -20,6 +20,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
     "build": "npm-run-all build-css build-js && cat ./build/index.html > ./build/200.html",
+    "deploy": "npm run build && surge ./build --domain https://holycross.surge.sh",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
