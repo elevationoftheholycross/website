@@ -33,7 +33,7 @@ class Nav extends Component {
             {
               matches => matches ? (
                 <button onClick={ this.toggleMenu }>
-                  <i class="material-icons">&#xE5D2;</i>
+                  <i className="material-icons">&#xE5D2;</i>
                 </button>
               ) : (
                 this.renderLinks()
