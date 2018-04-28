@@ -68,7 +68,7 @@ class Home extends Component {
               <div className="grid-item three">
                 <h2>Calendar</h2>
                 <span>
-                  Discover upcoming events and more on our
+                  Discover upcoming events and more on our&nbsp;
                   <a href="https://calendar.google.com/calendar/embed?src=holycross.oca%40gmail.com&ctz=America%2FLos_Angeles" target="_blank" rel="noopener noreferrer nofollow">church calendar</a>.
                 </span>
               </div>

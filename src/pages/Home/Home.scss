@@ -32,7 +32,7 @@
       margin: 24px 32px 0 32px;
 
       text-align: center;
-      font-family: 'system';
+      font-family: 'system', sans-serif;
       font-weight: 400;
       font-size: calc( 16px + 1.5vw );
       color: rgba(0, 0, 0, .6);
@@ -54,6 +54,12 @@
 
       color: rgba(0, 0, 0, .84);
 
+      @media screen and (max-width: 768px) {
+        & {
+          padding-top: 0px;
+        }
+      }
+
       h1 {
         font-weight: 400;
         font-size: calc( 18px + 1.5vw );
@@ -73,7 +79,7 @@
           margin-top: 0;
           padding-top: 8px;
 
-          font-family: 'system';
+          font-family: 'system', sans-serif;
           color: rgba(0, 0, 0, .54);
         }
       }
@@ -118,7 +124,7 @@
             margin: 24px 32px 0 32px;
 
             text-align: center;
-            font-family: 'system';
+            font-family: 'system', sans-serif;
             font-weight: 400;
             font-size: calc( 16px + .8vw );
             color: rgba(0, 0, 0, .6);
@@ -137,18 +143,31 @@
           font-size: calc( 16px + .6vw );
           line-height: calc( (16px + .6vw) * 1.615 );
           color: rgba(0, 0, 0, .84);
-          font-family: 'system';
+          font-family: 'system', sans-serif;
         }
       }
 
       .grid-3 {
         margin-top: 48px;
 
+        @media screen and (max-width: 768px) {
+          & {
+            margin-top: 16px;
+          }
+        }
+
         .grid-item {
+
+          @media screen and (max-width: 768px) {
+            & {
+              margin-top: 24px;
+            }
+          }
+
           span {
             font-size: calc( 16px + .4vw );
             line-height: calc( (16px + .4vw) * 1.615 );
-            font-family: 'system';
+            font-family: 'system', sans-serif;
           }
 
           h2 {
