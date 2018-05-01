@@ -95,8 +95,8 @@ class Home extends Component {
               <div className="grid-item two">
                 <h2>Contact us</h2>
                 <span>
-                  {/* Email:<br/>
-                  <a href="mailto:hello@holycrosssacramento.com">hello@holycrosssacramento.com</a> */}
+                  E-mail:<br/>
+                  <a href="mailto:frtimothywinegar@gmail.com">frtimothywinegar@gmail.com</a>
                   <p>
                     Telephone:<br/>
                     (916) 857-0806
