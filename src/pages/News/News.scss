@@ -101,6 +101,10 @@
 
         width: 100%;
 
+        @media screen and ( max-width: 768px ) {
+          flex-direction: column;
+        }
+
         .section:last-child {
           padding-bottom: 0;
           margin-bottom: 0;
@@ -116,11 +120,23 @@
           flex: 3;
 
           padding-right: 16px;
+
+          @media screen and ( max-width: 768px ) {
+            flex: 1;
+
+            padding-right: 0;
+          }
         }
         .right {
           flex: 2;
 
           padding-left: 16px;
+
+          @media screen and ( max-width: 768px ) {
+            flex: 1;
+
+            padding-left: 0;
+          }
 
           .section {
             .eyebrow {
