@@ -51,6 +51,7 @@ class Nav extends Component {
       <div className={`links ${ this.state.isOpen ? 'open' : 'closed' }` }>
         <Link to="/" onClick={ this.toggleMenu }>Home</Link>
         <Link to="/about" onClick={ this.toggleMenu }>About</Link>
+        <Link to="/news" onClick={ this.toggleMenu }>News</Link>
         {/* <Link to="/" onClick={ this.toggleMenu }>Ministries</Link> */}
         <a href="https://calendar.google.com/calendar/embed?src=holycross.oca%40gmail.com&ctz=America%2FLos_Angeles" target="_blank" rel="noopener noreferrer nofollow">Calendar</a>
         <HashLink to="/home#contact" onClick={ this.toggleMenu }>Contact</HashLink>

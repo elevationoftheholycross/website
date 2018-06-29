@@ -7,6 +7,7 @@ import About from './pages/About';
 import Letter from './pages/Letter';
 import Orthodoxy from './pages/Orthodoxy';
 import History from './pages/History';
+import News from './pages/News';
 
 class Routes extends React.Component {
 
@@ -26,6 +27,8 @@ class Routes extends React.Component {
         <Route exact path="/welcome" component={ Letter } />
         <Route exact path="/orthodoxy" component={ Orthodoxy } />
         <Route exact path="/history" component={ History } />
+        <Route exact path="/news" component={ News } />
+        <Route exact path="/news/:key" component={ News } />
       </div>
     )
   }
