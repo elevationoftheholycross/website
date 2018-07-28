@@ -18,6 +18,8 @@
     position: relative;
 
     .header {
+      max-width: 100%;
+      
       .eyebrows {
         display: flex;
         justify-content: space-between;
@@ -43,8 +45,11 @@
   }
 
   .content-container.article {
+    max-width: 800px;
 
     .body {
+      max-width: 100%;
+
       img {
         display: block;
         width: 100%;
