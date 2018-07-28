@@ -19,7 +19,7 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
-    "build": "npm-run-all build-css build-js && cat ./build/index.html > ./build/200.html",
+    "build": "npm-run-all build-css build-js && cat ./build/index.html > ./build/200.html && cat ./_redirects > ./build/_redirects",
     "deploy": "npm run build && surge ./build --domain https://holycrosssacramento.org",
     "generate-pem": "cat ./certs/certificate.crt ./certs/ca_bundle.crt ./certs/private.key > ./certs/surge.pem",
     "apply-pem": "surge ssl --pem ./certs/surge.pem --domain holycrosssacramento.org",
