@@ -19,7 +19,7 @@
 
     .header {
       max-width: 100%;
-      
+
       .eyebrows {
         display: flex;
         justify-content: space-between;
@@ -130,6 +130,12 @@
             flex: 1;
 
             padding-right: 0;
+          }
+
+          .eyebrow {
+            margin-bottom: .5rem;
+
+            font-size: 1.4rem;
           }
         }
         .right {

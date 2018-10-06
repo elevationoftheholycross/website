@@ -81,6 +81,9 @@
             .News .content-container.article .body .cols .left {
               flex: 1;
               padding-right: 0; } }
+          .News .content-container.article .body .cols .left .eyebrow {
+            margin-bottom: .5rem;
+            font-size: 1.4rem; }
         .News .content-container.article .body .cols .right {
           flex: 2;
           padding-left: 16px; }
