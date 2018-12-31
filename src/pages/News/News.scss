@@ -159,7 +159,19 @@
               font-size: 1.4rem;
             }
 
+            ul.crossed-list {
+              margin-top: 0;
+              margin-left: .5rem;
+              padding-left: 1rem;
+              text-indent: -1rem;
 
+              list-style: none;
+
+              li:before {
+                content: '\2720';
+                margin-right: .5rem;
+              }
+            }
           }
         }
       }

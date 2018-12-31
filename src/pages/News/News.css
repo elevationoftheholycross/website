@@ -96,3 +96,12 @@
             font-size: 1.4rem; }
           .News .content-container.article .body .cols .right .section .title {
             font-size: 1.4rem; }
+          .News .content-container.article .body .cols .right .section ul.crossed-list {
+            margin-top: 0;
+            margin-left: .5rem;
+            padding-left: 1rem;
+            text-indent: -1rem;
+            list-style: none; }
+            .News .content-container.article .body .cols .right .section ul.crossed-list li:before {
+              content: '\2720';
+              margin-right: .5rem; }
