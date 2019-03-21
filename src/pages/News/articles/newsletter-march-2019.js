@@ -33,7 +33,7 @@ const newsletterMarch2019 = ({ imagePrefix }) => {
 
               <div className="article-body" style={{ clear: 'all' }}>
                 <p>
-                  n Saturday March 9th, Fr. Timothy and Fr. Ian led a pre-Lenten
+                  On Saturday March 9th, Fr. Timothy and Fr. Ian led a pre-Lenten
                   retreat at the&nbsp;
                   <a href="https://www.holyassumptionmonastery.com/" target="_blank" rel="noopener noreferrer">Holy Assumption Monastery in Calistoga</a>.
                   The theme of the retreat was “Seeking first the Kingdom: Our
