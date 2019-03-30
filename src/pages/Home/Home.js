@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Home.css';
 
 import { Link } from 'react-router-dom';
+import TithelyButton from '../../components/TithleyButton';
 
 class Home extends Component {
 
@@ -114,6 +115,38 @@ class Home extends Component {
                   <p>
                     <a href="https://www.instagram.com/holycross.sac/" target="_blank" rel="noopener noreferrer">Instagram</a>
                   </p>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div className="section stewardship" id="contact" name="contact">
+            <h1 className="section-title">Stewardship</h1>
+            <h2 className="section-subtitle">Get involved in good works</h2>
+
+            <div className="grid-3">
+              <div className="grid-item one">
+                <h2>Ministries</h2>
+                <span>
+                  Your stewardship contributes to our ongoing ministries within the community, and within the parish.
+                  We will always welcome a helping hand. More details coming soon!
+                </span>
+              </div>
+
+              <div className="grid-item two">
+                <h2>Giving</h2>
+                <span>
+                  Contribute directly to the Food Closet, the building fund, your pledge, and other ministries.
+                  <p>
+                    <TithelyButton text="Donate" />
+                  </p>
+                </span>
+              </div>
+
+              <div className="grid-item three">
+                <h2>Learn more</h2>
+                <span>
+                  <Link to="/giving">Learn more</Link> about stewardship and how your generous contributions are put to good use.
                 </span>
               </div>
             </div>
