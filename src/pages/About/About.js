@@ -33,14 +33,14 @@ class About extends Component {
               </p>
             </div>
 
-            {/* <div className="link">
-              <Link to="/orthodoxy">
+            <div className="link">
+              <Link to="/leadership">
                 <h3>Clergy and Lay Leadership</h3>
               </Link>
               <p>
-                Meet a few (of our many) servants of God
+                Meet your fellow servants of God
               </p>
-            </div> */}
+            </div>
 
             <div className="link">
               <Link to="/history">

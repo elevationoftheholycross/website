@@ -1,36 +1,37 @@
 .Page {
   padding-top: 88px; }
+  .Page .content-container {
+    margin: 64px 32px; }
+    @media screen and (max-width: 768px) {
+      .Page .content-container {
+        width: 100%;
+        margin: 0 0;
+        padding: 64px 32px; } }
+    .Page .content-container h1 {
+      margin: 0;
+      font-weight: 400;
+      font-size: calc( 18px + 1.5vw); }
+    .Page .content-container h2 {
+      margin: 8px 0 16px 0;
+      font-weight: 400;
+      font-size: calc( 16px + .8vw);
+      color: rgba(0, 0, 0, 0.7); }
+    .Page .content-container h3 {
+      margin: 0;
+      font-weight: 400; }
+    .Page .content-container .header {
+      margin-bottom: 32px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    .Page .content-container .body {
+      max-width: calc( 19px / 1.615 * 60);
+      font-family: 'Roboto', 'system', sans-serif;
+      font-size: 19px;
+      line-height: calc( 19px * 1.615); }
 
 .Blog .content-container {
-  margin: 64px 32px;
   padding: 64px;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
-  @media screen and (max-width: 768px) {
-    .Blog .content-container {
-      width: 100%;
-      margin: 0 0;
-      padding: 64px 32px; } }
-  .Blog .content-container h1 {
-    margin: 0;
-    font-weight: 400;
-    font-size: calc( 18px + 1.5vw); }
-  .Blog .content-container h2 {
-    margin: 8px 0 16px 0;
-    font-weight: 400;
-    font-size: calc( 16px + .8vw);
-    color: rgba(0, 0, 0, 0.7); }
-  .Blog .content-container h3 {
-    margin: 0;
-    font-weight: 400; }
-  .Blog .content-container .header {
-    margin-bottom: 32px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
-  .Blog .content-container .body {
-    max-width: calc( 19px / 1.615 * 60);
-    font-family: 'Roboto', 'system', sans-serif;
-    font-size: 19px;
-    line-height: calc( 19px * 1.615); }
 
 .grid-3 {
   display: grid;
