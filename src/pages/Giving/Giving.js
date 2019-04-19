@@ -15,7 +15,7 @@ class Giving extends Component {
             <h2>Acts. 20:35</h2>
           </div>
 
-          <div className="body" style={{ display: 'flex', flexDirection: 'column' }}>
+          <div className="body" style={{ display: 'flex', flexDirection: 'column', margin: '0 auto' }}>
             <p>
               Thank you for your generous support of our ministries at Elevation
               of the Holy Cross!  If you would like to make a donation to
