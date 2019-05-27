@@ -43,6 +43,15 @@ class About extends Component {
             </div>
 
             <div className="link">
+              <Link to="/sermons">
+                <h3>Sermons</h3>
+              </Link>
+              <p>
+                Listen to recent sermons given by our priests
+              </p>
+            </div>
+
+            <div className="link">
               <Link to="/history">
                 <h3>Parish History</h3>
               </Link>

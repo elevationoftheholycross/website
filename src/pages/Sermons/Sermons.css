@@ -1,0 +1,9 @@
+.Sermons {
+  display: flex;
+  justify-content: center; }
+  .Sermons .link {
+    margin-bottom: 32px; }
+    .Sermons .link:last-child {
+      margin-bottom: 0; }
+    .Sermons .link p {
+      margin: 0; }
