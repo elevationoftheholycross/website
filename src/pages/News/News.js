@@ -15,6 +15,11 @@ class News extends Component {
   renderList = () => {
     const items = [
       {
+        key: 'st-eugine-camp-2019',
+        title: 'St. Eugene\'s Summer Camp - 2019',
+        subtitle: 'Orthodox youth summer camp organized by the OCA Diocese of the West'
+      },
+      {
         key: 'newsletter-march-2019',
         title: 'The Good News - March 2019',
         subtitle: 'Quarterly Newsletter'
