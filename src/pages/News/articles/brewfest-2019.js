@@ -1,0 +1,35 @@
+import React from 'react';
+
+import { Document, Page } from 'react-pdf';
+import { Link } from 'react-router-dom';
+
+import pdf from '../../../assets/images/news/brewfest-flyer-2019.pdf';
+
+const brewfest2019 = ({ imagePrefix }) => {
+  return (
+    <div className="content-container article">
+      <div className="header">
+        <div className="eyebrows">
+          <div className="left">
+            Brewfest & BBQ
+          </div>
+          <div className="right">
+            2019
+          </div>
+        </div>
+      </div>
+
+      <div className="body">
+        <div className="main-article">
+          <Document
+            file={ pdf }
+            onLoadSuccess={() => {}}>
+            <Page pageNumber={ 1 } />
+          </Document>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default brewfest2019;
