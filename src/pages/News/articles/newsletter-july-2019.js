@@ -109,7 +109,7 @@ const newsletterJuly2019 = ({ imagePrefix }) => {
             </div>
 
             <div className="section">
-              <h3 class="eyebrow">Looking Ahead</h3>
+              <h3 className="eyebrow">Looking Ahead</h3>
               <h2 className="title" style={{ color: OVERRIDE_COLOR }}>
                 3rd Annual Wine Stroll
               </h2>
@@ -157,7 +157,7 @@ const newsletterJuly2019 = ({ imagePrefix }) => {
                   <strong>Marriages</strong>
                   <ul>
                     <li>
-                      dam Seraphim Torruella &amp; Brittany Euphrosyne Bonitata
+                      Adam Seraphim Torruella &amp; Brittany Euphrosyne Bonitata
                     </li>
                   </ul>
                 </li>
