@@ -5,6 +5,7 @@ import newsletterSeptember2018 from './newsletter-september-2018';
 import newsletterDecember2018 from './newsletter-december-2018';
 import newsletterMarch2019 from './newsletter-march-2019';
 import brewfest2019 from './brewfest-2019';
+import newsletterJuly2019 from './newsletter-july-2019';
 
 export default {
   'wine-stroll-2018': wineStroll2018,
@@ -13,5 +14,6 @@ export default {
   'newsletter-september-2018': newsletterSeptember2018,
   'newsletter-december-2018': newsletterDecember2018,
   'newsletter-march-2019': newsletterMarch2019,
-  'brewfest-2019': brewfest2019
+  'brewfest-2019': brewfest2019,
+  'newsletter-july-2019': newsletterJuly2019
 };
