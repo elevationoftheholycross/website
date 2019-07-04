@@ -1,9 +1,12 @@
 import React from 'react';
 
-import { Document, Page } from 'react-pdf';
-import { Link } from 'react-router-dom';
-
 import pdf from '../../../assets/images/news/brewfest-flyer-2019.pdf';
+import { Link } from 'react-router-dom';
+import { Document, Page } from 'react-pdf';
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${ pdfjs.version }/pdf.worker.js`;
+
+
 
 const brewfest2019 = ({ imagePrefix }) => {
   return (
@@ -23,7 +26,9 @@ const brewfest2019 = ({ imagePrefix }) => {
         <div className="main-article">
           <Document
             file={ pdf }
-            onLoadSuccess={() => {}}>
+            onLoadSuccess={() => {}}
+            onLoadError={ e => { console.log('loadError', e) }}
+            onSourceError={ e => { console.log('sourceError', e) }}>
             <Page pageNumber={ 1 } />
           </Document>
         </div>

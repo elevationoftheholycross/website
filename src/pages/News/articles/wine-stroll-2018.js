@@ -1,9 +1,10 @@
 import React from 'react';
 
+import pdf from '../../../assets/images/news/wine-stroll-flyer-2018.pdf';
 import { Document, Page } from 'react-pdf';
 import { Link } from 'react-router-dom';
-
-import pdf from '../../../assets/images/news/wine-stroll-flyer-2018.pdf';
+import { pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${ pdfjs.version }/pdf.worker.js`;
 
 const wineStroll2018 = ({ imagePrefix }) => {
   return (
