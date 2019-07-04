@@ -26,9 +26,9 @@ const brewfest2019 = ({ imagePrefix }) => {
         <div className="main-article">
           <Document
             file={ pdf }
-            onLoadSuccess={() => {}}
-            onLoadError={ e => { console.log('loadError', e) }}
-            onSourceError={ e => { console.log('sourceError', e) }}>
+            onLoadSuccess={() => {}}>
+            {/* onLoadError={ e => { console.log('loadError', e) }}
+            onSourceError={ e => { console.log('sourceError', e) }}> */}
             <Page pageNumber={ 1 } />
           </Document>
         </div>

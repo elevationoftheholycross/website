@@ -9,7 +9,7 @@ class News extends Component {
   constructor(props) {
     super(props);
 
-    console.log(articles);
+    // console.log(articles);
   }
 
   renderList = () => {
