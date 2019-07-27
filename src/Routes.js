@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Letter from './pages/Letter';
+import Belief from './pages/Belief';
 import Orthodoxy from './pages/Orthodoxy';
 import Leadership from './pages/Leadership';
 import Sermons from './pages/Sermons';
@@ -28,6 +29,7 @@ class Routes extends React.Component {
         <Route exact path="/home" component={ Home } />
         <Route exact path="/about" component={ About } />
         <Route exact path="/welcome" component={ Letter } />
+        <Route exact path="/belief" component={ Belief } />
         <Route exact path="/orthodoxy" component={ Orthodoxy } />
         <Route exact path="/leadership" component={ Leadership } />
         <Route exact path="/sermons" component={ Sermons } />

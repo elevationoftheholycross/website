@@ -1,23 +1,23 @@
-.Orthodoxy {
+.Belief {
   display: flex;
   justify-content: center; }
-  .Orthodoxy .content-container {
+  .Belief .content-container {
     padding: 64px; }
-    .Orthodoxy .content-container .header {
+    .Belief .content-container .header {
       padding: 0 16px; }
-  .Orthodoxy .section {
+  .Belief .section {
     margin-bottom: 32px; }
-    .Orthodoxy .section:last-child {
+    .Belief .section:last-child {
       margin-bottom: 0; }
-    .Orthodoxy .section h3 {
+    .Belief .section h3 {
       margin-bottom: 8px; }
-    .Orthodoxy .section img {
+    .Belief .section img {
       display: block;
       max-height: 320px;
       margin: 0 auto 16px;
       padding: 16px;
       border: 1px solid #FF8F00; }
     @media screen and (max-width: 640px) {
-      .Orthodoxy .section img {
+      .Belief .section img {
         max-height: 100vh;
         max-width: calc( 100% - 32px); } }

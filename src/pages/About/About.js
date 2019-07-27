@@ -25,11 +25,20 @@ class About extends Component {
             </div>
 
             <div className="link">
-              <Link to="/orthodoxy">
-                <h3>What is Orthodox Christianity?</h3>
+              <Link to="/belief">
+                <h3>What we believe</h3>
               </Link>
               <p>
-                A brief exploration of Orthodoxy and its history
+                The Apostolic faith
+              </p>
+            </div>
+
+            <div className="link">
+              <Link to="/orthodoxy">
+                <h3>What is the Orthodox Church?</h3>
+              </Link>
+              <p>
+                I believe in One, Holy Catholic, and Apostolic Church...
               </p>
             </div>
 
