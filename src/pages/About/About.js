@@ -26,7 +26,7 @@ class About extends Component {
 
             <div className="link">
               <Link to="/belief">
-                <h3>What we believe</h3>
+                <h3>What We Believe</h3>
               </Link>
               <p>
                 The Apostolic faith
