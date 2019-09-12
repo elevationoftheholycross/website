@@ -15,6 +15,11 @@ class News extends Component {
   renderList = () => {
     const items = [
       {
+        key: 'wine-stroll-2019',
+        title: 'Wine Stroll 2019',
+        subtitle: 'Wine tasting fundraiser event'
+      },
+      {
         key: 'newsletter-july-2019',
         title: 'The Good News - July 2019',
         subtitle: 'Quarterly Newsletter'
