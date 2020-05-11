@@ -102,6 +102,12 @@ class Home extends Component {
                     Telephone:<br/>
                     (916) 857-0806
                   </p>
+                  <p>
+                    Mailing address:<br/>
+                    2443 Fair Oaks Blvd<br/>
+                    #295<br/>
+                    Sacramento, CA 95825-7684
+                  </p>
                 </span>
               </div>
 

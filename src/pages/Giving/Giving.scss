@@ -23,4 +23,21 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .donate-button {
+    margin: 0 auto;
+    background-color: #00DB72;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 15px 70px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-image: none;
+    color: white;
+    text-shadow: none;
+    display: inline-block;
+    float: none;
+    border: none;
+  }
 }

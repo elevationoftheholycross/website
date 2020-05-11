@@ -1,9 +1,22 @@
 import React, { Component } from 'react';
 import './Giving.css';
 
+import AplosModal from '../../components/AplosModal';
 import TithelyButton from '../../components/TithleyButton';
 
 class Giving extends Component {
+
+  constructor( props ) {
+    super( props );
+
+    this.state = {
+      showAplosModal: false
+    };
+  }
+
+  toggleAplosModal = () => {
+    this.setState({ showAplosModal: !this.state.showAplosModal });
+  }
 
   render() {
     return (
@@ -24,13 +37,29 @@ class Giving extends Component {
               like it to go.
             </p>
 
-            <TithelyButton text="Donate" />
+            {/* <TithelyButton text="Donate online" /> */}
+            <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button>
+
+            <p>
+              Pledges and all other giving to support our Parish and related ministries may also be mailed to parish mailbox at:
+            </p>
+            <p style={{ textAlign: 'center' }}>
+              2443 Fair Oaks Blvd<br/>
+              #295<br/>
+              Sacramento, CA 95825-7684
+            </p>
+
+            <p>
+              <strong>Please indicate in a memo note if your support is for a Pledge, General Donation, Building Fund, Food Closet, or COVID relief.</strong>
+            </p>
 
             <h3 style={{ margin: '1em auto' }}>
               May the Lord bless you!
             </h3>
           </div>
         </div>
+
+        <AplosModal show={ this.state.showAplosModal } toggle={ this.toggleAplosModal } />
       </div>
     )
   }
