@@ -3,8 +3,21 @@ import './Home.css';
 
 import { Link } from 'react-router-dom';
 import TithelyButton from '../../components/TithleyButton';
+import AplosModal from '../../components/AplosModal';
 
 class Home extends Component {
+
+  constructor( props ) {
+    super( props );
+
+    this.state = {
+      showAplosModal: false
+    };
+  }
+
+  toggleAplosModal = () => {
+    this.setState({ showAplosModal: !this.state.showAplosModal });
+  }
 
   render() {
     return (
@@ -144,7 +157,8 @@ class Home extends Component {
                 <span>
                   Contribute directly to the Food Closet, the building fund, your pledge, and other ministries.
                   <p>
-                    <TithelyButton text="Donate" />
+                    {/*<TithelyButton text="Donate" />*/}
+                    <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button>
                   </p>
                 </span>
               </div>
@@ -162,6 +176,7 @@ class Home extends Component {
             <img src={ require('../../assets/images/prayer-rope.png') } alt="Prayer rope" style={{ display: 'block', maxWidth: '100%', margin: '0 auto' }} />
           </div>
 
+          <AplosModal show={ this.state.showAplosModal } toggle={ this.toggleAplosModal } />
         </div>
       </div>
     )
