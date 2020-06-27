@@ -39,9 +39,9 @@ class Leadership extends Component {
               <ul>
                 <li>Claudia Dubovik, Warden</li>
                 <li>Catherine Plefka, Asst. Warden</li>
-                <li>Ginny Nelson, Secretary</li>
+                <li>Dawn Heywood, Secretary</li>
                 <li>Tim Honeycutt, Treasurer</li>
-                <li>Subdeacon Brett John Gainer</li>
+                <li>Helen Ferrari</li>
                 <li>Reader Gabriel Read</li>
               </ul>
 
