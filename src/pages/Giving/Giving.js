@@ -15,6 +15,12 @@ class Giving extends Component {
   }
 
   toggleAplosModal = () => {
+    if( this.state.showAplosModal ) {
+      document.querySelector( 'body' ).setAttribute( 'style', '' )
+    } else {
+      document.querySelector( 'body' ).setAttribute( 'style', 'overflow: hidden;' )
+    }
+
     this.setState({ showAplosModal: !this.state.showAplosModal });
   }
 
