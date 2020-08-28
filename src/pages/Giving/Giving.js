@@ -43,8 +43,8 @@ class Giving extends Component {
               like it to go.
             </p>
 
-            {/* <TithelyButton text="Donate online" /> */}
-            <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button>
+            <TithelyButton text="Donate online" />
+            {/* <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button> */}
 
             <p>
               Pledges and all other giving to support our Parish and related ministries may also be mailed to parish mailbox at:
