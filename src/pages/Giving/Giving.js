@@ -43,8 +43,8 @@ class Giving extends Component {
               like it to go.
             </p>
 
-            <TithelyButton text="Donate online" />
-            {/* <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button> */}
+            {/*<TithelyButton text="Donate online" />*/}
+            <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button>
 
             <p style={{ padding: '.5rem 1rem', borderRadius: '4px', backgroundColor: 'rgba(0, 0, 0, .05)', fontSize: '1rem' }}>
               We have temporary switched to Tithe.ly as our giving platform while issues with APLOS are being addressed. Thank you for your patience.
