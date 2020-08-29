@@ -163,8 +163,8 @@ class Home extends Component {
                 <span>
                   Contribute directly to the Food Closet, the building fund, your pledge, and other ministries.
                   <p>
-                    <TithelyButton text="Donate Online" />
-                    {/* <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button> */}
+                    {/*<TithelyButton text="Donate Online" />*/}
+                    <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button>
                   </p>
                 </span>
               </div>
