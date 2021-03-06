@@ -52,9 +52,12 @@ class About extends Component {
             </div>
 
             <div className="link">
-              <Link to="/sermons">
+              {/*<Link to="/sermons">
                 <h3>Sermons</h3>
-              </Link>
+              </Link>*/}
+              <a href="https://www.youtube.com/playlist?list=PLWw8pq-hNaJkihjBn9zydXEYVGTWto7yD" target="_blank" rel="noopener noreferrer">
+                <h3>Sermons</h3>
+              </a>
               <p>
                 Listen to recent sermons given by our priests
               </p>

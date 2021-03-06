@@ -61,7 +61,7 @@ class Belief extends Component {
               </em>
               <img src={ require( '../../assets/images/about/belief-1.jpg' ) } alt="Nicene Creed" style={{ maxHeight: '420px' }} />
               <p>
-                The next four Ecumenical Councils (in the years 431, 451, 553 and 680-681) further articulated our faith in One Lord Jesus Christ, the Son of God, who is both fully God and fully human.  The Seventh Ecumenical Council (787), which took place during the iconoclast controversy, upheld that the traditional practice of depicting images Jesus Christ and the saints in churches and honoring them does not constitute idolatry, and explained that there is a great difference between veneration (i.e., reverence or honor), and the worship due to God alone.
+                The next four Ecumenical Councils (in the years 431, 451, 553 and 680-681) further articulated our faith in One Lord Jesus Christ, the Son of God, who is both fully God and fully human.  The Seventh Ecumenical Council (787), which took place during the iconoclast controversy, upheld that the traditional practice of depicting images of Jesus Christ and the saints in churches and honoring them does not constitute idolatry, and explained that there is a great difference between veneration (i.e., reverence or honor), and the worship due to God alone.
               </p>
             </div>
 

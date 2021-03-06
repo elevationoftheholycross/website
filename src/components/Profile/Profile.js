@@ -21,7 +21,7 @@ const Profile = ({ image, name, bio }) => (
         </div>
       }
 
-      <div className="cross">✠</div>
+      <div className="cross">☦</div>
     </div>
   </div>
 )

@@ -40,8 +40,8 @@ class Leadership extends Component {
                 <li>Claudia Dubovik, Warden</li>
                 <li>Catherine Plefka, Asst. Warden</li>
                 <li>Dawn Heywood, Secretary</li>
-                <li>Tim Honeycutt, Treasurer</li>
-                <li>Helen Ferrari</li>
+                <li>Janet Helen Ferrari, Treasurer</li>
+                <li>David Lane</li>
                 <li>Reader Gabriel Read</li>
               </ul>
 
