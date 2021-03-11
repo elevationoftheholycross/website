@@ -16,7 +16,7 @@ class AplosModal extends Component {
           </div>
         </div>
 
-        <Iframe url="https://www.aplos.com/aws/give/ElevationoftheHolyCrossOrthodoxChurch/https://holycrosssacramento.org/"
+        <Iframe url="https://www.aplos.com/aws/give/ElevationoftheHolyCrossOrthodoxChurch/holycrosssacramento"
                 width="1000px"
                 height="100%"
                 overflow="scroll"
