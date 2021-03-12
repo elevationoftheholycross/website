@@ -1,0 +1,9 @@
+.Ministries {
+  display: flex;
+  justify-content: center; }
+  .Ministries .link {
+    margin-bottom: 32px; }
+    .Ministries .link:last-child {
+      margin-bottom: 0; }
+    .Ministries .link p {
+      margin: 0; }

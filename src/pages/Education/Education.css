@@ -1,0 +1,41 @@
+.Education {
+  display: flex;
+  justify-content: center; }
+  .Education .body .section-heading {
+    display: flex;
+    align-items: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%; }
+    .Education .body .section-heading hr {
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+    .Education .body .section-heading .section-title {
+      flex-shrink: 0;
+      margin: 0 .5rem;
+      color: #FF8F00; }
+  .Education .body .section .Profile {
+    margin-top: 192px; }
+    .Education .body .section .Profile:first-child {
+      margin-top: 32px; }
+    .Education .body .section .Profile h3 {
+      text-align: center; }
+  .Education .body .lay-leadership {
+    margin-top: 32px;
+    padding: 32px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+    .Education .body .lay-leadership ul {
+      margin-top: 0;
+      margin-left: .5rem;
+      padding-left: 1rem;
+      text-indent: -1rem;
+      list-style: none; }
+      .Education .body .lay-leadership ul li:before {
+        content: '\2720';
+        margin-right: .5rem; }
+    .Education .body .lay-leadership h4 {
+      margin: 0;
+      font-weight: 400; }

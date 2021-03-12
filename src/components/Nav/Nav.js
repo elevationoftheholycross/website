@@ -51,6 +51,7 @@ class Nav extends Component {
       <div className={`links ${ this.state.isOpen ? 'open' : 'closed' }` }>
         <Link to="/" onClick={ this.toggleMenu }>Home</Link>
         <Link to="/about" onClick={ this.toggleMenu }>About</Link>
+        <Link to="/ministries" onClick={ this.toggleMenu }>Ministries</Link>
         <Link to="/giving" onClick={ this.toggleMenu }>Giving</Link>
         <Link to="/news" onClick={ this.toggleMenu }>News</Link>
         {/* <Link to="/" onClick={ this.toggleMenu }>Ministries</Link> */}

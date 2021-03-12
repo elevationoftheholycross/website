@@ -5,6 +5,7 @@
   justify-content: center;
   position: relative;
   top: 128px;
+  margin: 0 auto;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
   .Profile .image {
@@ -43,6 +44,25 @@
         color: #FF8F00;
         font-size: 64px;
         line-height: 64px; }
+      .Profile .bio .blurb h4 {
+        margin: 16 auto 0;
+        text-align: center;
+        border-bottom: 1px solid #FF8F00; }
+      .Profile .bio .blurb h5 {
+        width: calc( 100% - 32px);
+        margin: 0;
+        margin-top: -32px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border: 1px solid #FF8F00;
+        border-top: none;
+        text-align: center; }
+      .Profile .bio .blurb img {
+        max-width: calc( 100% - 32px);
+        padding: 16px;
+        border: 1px solid #FF8F00;
+        border-bottom: none; }
   .Profile .cross {
     width: 100%;
     margin-top: 32px;

@@ -1,0 +1,16 @@
+.Ministries {
+  display: flex;
+  justify-content: center;
+
+  .link {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}

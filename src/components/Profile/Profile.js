@@ -1,12 +1,14 @@
 import React from 'react';
 import './Profile.css';
 
-const getImage = ( image ) => require( `../../assets/images/profile/${ image }` );
+import ReactMarkdown from 'react-markdown'
 
-const Profile = ({ image, name, bio }) => (
+const getImage = ( image, imageDir ) => require( `../../assets/images/${ imageDir }/${ image }` );
+
+const Profile = ({ image, imageDir, name, bio, markdown }) => (
   <div className="Profile">
     <div className="image">
-      <img src={ getImage( image ) } alt={ name } />
+      <img src={ getImage( image, imageDir ) } alt={ name } />
     </div>
 
     <div className="cover-image" />
@@ -15,7 +17,14 @@ const Profile = ({ image, name, bio }) => (
       <h3>{ name }</h3>
 
       {
-        bio &&
+        markdown &&
+        <div className="blurb">
+          <ReactMarkdown children={ markdown } />
+        </div>
+      }
+
+      {
+        bio && !markdown &&
         <div className="blurb">
           { bio }
         </div>
