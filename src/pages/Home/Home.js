@@ -154,7 +154,10 @@ class Home extends Component {
                 <h2>Ministries</h2>
                 <span>
                   Your stewardship contributes to our ongoing ministries within the community, and within the parish.
-                  We will always welcome a helping hand. More details coming soon!
+                  We will always welcome a helping hand.
+                  <p>
+                    <Link to="/ministries">Learn about our ministries</Link> and how you can participate.
+                  </p>
                 </span>
               </div>
 
@@ -172,7 +175,7 @@ class Home extends Component {
               <div className="grid-item three">
                 <h2>Learn more</h2>
                 <span>
-                  <Link to="/giving">Learn more</Link> about stewardship and how your generous contributions are put to good use.
+                  <Link to="/giving">Learn more about stewardship</Link> and how your generous contributions are put to good use.
                 </span>
               </div>
             </div>
