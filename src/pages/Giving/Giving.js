@@ -60,7 +60,7 @@ class Giving extends Component {
             </p>
 
             <p>
-              <strong>Please indicate in a memo note if your support is for a Pledge, General Donation, Building Fund, Food Closet, or COVID relief.</strong>
+              <strong>Please indicate in a memo note if your support is for a Pledge, General Donation, Building Fund, Food Closet, or another purpose.</strong>
             </p>
 
             <h3 style={{ margin: '1em auto' }}>
