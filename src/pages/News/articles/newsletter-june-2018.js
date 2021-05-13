@@ -2,9 +2,15 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
+import { Helmet } from "react-helmet";
+
 const newsletterJune2018 = ({ imagePrefix }) => {
   return (
     <div className="content-container article">
+      <Helmet>
+        <title>The Good News - June 2018 | Elevation of the Holy Cross Sacramento</title>
+      </Helmet>
+
       <div className="header">
         <div className="eyebrows">
           <div className="left">

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Giving.css';
 
+import { Helmet } from "react-helmet";
+
 import AplosModal from '../../components/AplosModal';
 import TithelyButton from '../../components/TithleyButton';
 
@@ -27,6 +29,10 @@ class Giving extends Component {
   render() {
     return (
       <div className="Page Blog Giving">
+        <Helmet>
+          <title>Giving| Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <span className="eyebrow">And remember the words of the Lord Jesus, that He said,</span>

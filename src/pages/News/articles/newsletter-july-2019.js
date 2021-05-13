@@ -2,11 +2,17 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
+import { Helmet } from "react-helmet";
+
 const OVERRIDE_COLOR = '#48742c';
 
 const newsletterJuly2019 = ({ imagePrefix }) => {
   return (
     <div className="content-container article">
+      <Helmet>
+        <title>The Good News - July 2019 | Elevation of the Holy Cross Sacramento</title>
+      </Helmet>
+
       <div className="header">
         <div className="eyebrows">
           <div className="left">

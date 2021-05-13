@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './OutreachAndCharity.css';
 
+import { Helmet } from "react-helmet";
+
 import Profile from '../../components/Profile';
 
 class OutreachAndCharity extends Component {
@@ -8,6 +10,10 @@ class OutreachAndCharity extends Component {
   render() {
     return (
       <div className="Page OutreachAndCharity">
+        <Helmet>
+          <title>Outreach and Charity | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <h1>Outreach and Charity</h1>

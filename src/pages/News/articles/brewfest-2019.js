@@ -2,6 +2,7 @@ import React from 'react';
 
 import pdf from '../../../assets/images/news/brewfest-flyer-2019.pdf';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 import { Document, Page } from 'react-pdf';
 import { pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${ pdfjs.version }/pdf.worker.js`;
@@ -11,6 +12,10 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 const brewfest2019 = ({ imagePrefix }) => {
   return (
     <div className="content-container article">
+      <Helmet>
+          <title>Brewfest 2019 | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
       <div className="header">
         <div className="eyebrows">
           <div className="left">

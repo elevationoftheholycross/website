@@ -3,9 +3,15 @@ import React from 'react';
 import { Document, Page } from 'react-pdf';
 import { Link } from 'react-router-dom';
 
+import { Helmet } from "react-helmet";
+
 const stEugeneCamp2019 = () => {
   return (
     <div className="content-container article">
+      <Helmet>
+        <title>St. Eugene Summer Camp 2019 | Elevation of the Holy Cross Sacramento</title>
+      </Helmet>
+
       <div className="header">
         <div className="eyebrows">
           <div className="left">

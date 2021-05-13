@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import './Home.css';
 
 import { Link } from 'react-router-dom';
+
+import { Helmet } from "react-helmet";
+
 import TithelyButton from '../../components/TithleyButton';
 import AplosModal from '../../components/AplosModal';
 
@@ -28,6 +31,10 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
+        <Helmet>
+          <title>Elevation of the Holy Cross Sacramento | OCA - Diocese of the West</title>
+        </Helmet>
+
         <div className="hero">
           <h1>Elevation of the Holy Cross</h1>
           <h2>Orthodox Christian Church</h2>

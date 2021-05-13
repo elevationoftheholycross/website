@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import './History.css';
 
+import { Helmet } from "react-helmet";
+
 class History extends Component {
 
   render() {
     return (
       <div className="Page Blog History">
+        <Helmet>
+          <title>Parish History | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <h1>Parish History</h1>

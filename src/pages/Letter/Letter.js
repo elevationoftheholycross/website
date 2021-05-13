@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import './Letter.css';
 
+import { Helmet } from "react-helmet";
+
 class Letter extends Component {
 
   render() {
     return (
       <div className="Page Blog Letter">
+        <Helmet>
+          <title>First Time Visitor? | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <h1>First Time Visitor?</h1>

@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import './Orthodoxy.css';
 
+import { Helmet } from "react-helmet";
+
 class Orthodoxy extends Component {
 
   render() {
     return (
       <div className="Page Blog Orthodoxy">
+        <Helmet>
+          <title>What is the Orthodox Church? | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <h1>What is the Orthodox Church?</h1>

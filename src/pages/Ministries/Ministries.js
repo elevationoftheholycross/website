@@ -3,11 +3,17 @@ import './Ministries.css';
 
 import { Link } from 'react-router-dom';
 
+import { Helmet } from "react-helmet";
+
 class Ministries extends Component {
 
   render() {
     return (
       <div className="Page Blog Ministries">
+        <Helmet>
+          <title>Ministries | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <h1>Ministries</h1>

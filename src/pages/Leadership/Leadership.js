@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Leadership.css';
 
+import { Helmet } from "react-helmet";
+
 import Profile from '../../components/Profile';
 
 class Leadership extends Component {
@@ -8,6 +10,10 @@ class Leadership extends Component {
   render() {
     return (
       <div className="Page Leadership">
+        <Helmet>
+          <title>Clergy and Lay Leadership | Elevation of the Holy Cross Sacramento</title>
+        </Helmet>
+
         <div className="content-container">
           <div className="header">
             <h1>Clergy and Lay Leadership</h1>
