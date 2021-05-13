@@ -8,6 +8,7 @@ import brewfest2019 from './brewfest-2019';
 import newsletterJuly2019 from './newsletter-july-2019';
 import wineStroll2019 from './wine-stroll-2019';
 import lentenLetter2021 from './lenten-letter-2021';
+import newsletterMay2021 from './newsletter-may-2021';
 
 export default {
   'wine-stroll-2018': wineStroll2018,
@@ -19,5 +20,6 @@ export default {
   'brewfest-2019': brewfest2019,
   'newsletter-july-2019': newsletterJuly2019,
   'wine-stroll-2019': wineStroll2019,
-  'lenten-letter-2021': lentenLetter2021
+  'lenten-letter-2021': lentenLetter2021,
+  'newsletter-may-2021': newsletterMay2021
 };
