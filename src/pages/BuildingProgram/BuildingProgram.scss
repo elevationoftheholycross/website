@@ -58,6 +58,17 @@
 
       .Profile {
         top: 128px;
+        max-width: 100%;
+
+        .image {
+          img {
+            object-fit: cover;
+
+            max-width: 100%;
+            width: auto;
+            height: auto;
+          }
+        }
 
         h3 {
           margin: 0;

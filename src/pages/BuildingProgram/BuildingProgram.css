@@ -41,7 +41,13 @@
       .BuildingProgram .content .section:first-child {
         padding-top: 32px; }
       .BuildingProgram .content .section .Profile {
-        top: 128px; }
+        top: 128px;
+        max-width: 100%; }
+        .BuildingProgram .content .section .Profile .image img {
+          object-fit: cover;
+          max-width: 100%;
+          width: auto;
+          height: auto; }
         .BuildingProgram .content .section .Profile h3 {
           margin: 0;
           text-align: center;
