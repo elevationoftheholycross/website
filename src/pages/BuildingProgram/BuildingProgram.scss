@@ -7,9 +7,9 @@
     align-items: center;
     justify-content: center;
 
-    height: 70vh;
+    height: 50vh;
     width: 100vw;
-    padding-top: 87px;
+    padding-top: 64px;
 
     background: url('../../assets/images/bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -24,17 +24,32 @@
 
       text-align: center;
       font-weight: 400;
-      font-size: calc( 24px + 3vw );
+      font-size: 36px;
       color: rgba(0, 0, 0, .84);
     }
 
     h2 {
-      width: calc(( 24px + 3vw ) * 10.3);
+      // width: calc(( 24px + 3vw ) * 10.3);
+      width: clamp(400px, calc((24px + 3vw) * 10.3), 656px);
       margin: 24px 32px 0 32px;
 
       text-align: left;
       font-weight: 400;
+      font-size: 18px;
       color: rgba( 0, 0, 0, .84 );
+    }
+
+    @media screen and ( max-width: 640px ) {
+      height: 40vh;
+      padding-top: 76px;
+
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        max-width: calc( 100% - 32px );
+        font-size: 16px;
+      }
     }
   }
 
@@ -51,9 +66,22 @@
       position: relative;
       max-width: 800px;
       margin: 0 auto;
+      padding-top: 28px;
 
       &:first-child {
-        padding-top: 32px;
+        padding-top: 16px;
+      }
+
+      &.summary {
+        padding-left: 16px;
+        padding-right: 16px;
+
+        font-size: 18px;
+
+        @media screen and (max-width: 640px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
       }
 
       .Profile {

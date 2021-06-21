@@ -27,6 +27,18 @@ class BuildingProgram extends Component {
         </div>
 
         <div className="content">
+
+          <div className="section summary">
+            <h3>The Building Program</h3>
+            <div>
+              Our vision for the future centers around the construction of a new church temple that will express the beauty of our architectural tradition and accommodate more than twice our current membership as we continue to grow and share the faith!
+            </div>
+          </div>
+
+          <div className="section">
+            <div>$99,999</div>
+            <div>Raised of $100,000 annual goal</div>
+          </div>
         
           <div className="section">
             <Profile image="us.jpg" 
