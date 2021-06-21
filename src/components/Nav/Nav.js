@@ -27,7 +27,7 @@ class Nav extends Component {
       <div className="nav-container">
         <nav>
           <Link to="/">
-            <img src={ require('../../assets/images/oca-logo.png') } alt="Holy Cross Home" style={{ height: '60px' }} />
+            <img src={ require('../../assets/images/holycross-logo.png') } alt="Holy Cross Home" style={{ height: '60px' }} />
           </Link>
 
           <Media query="(max-width: 768px)">
@@ -49,7 +49,12 @@ class Nav extends Component {
   renderLinks = () => {
     return (
       <div className={`links ${ this.state.isOpen ? 'open' : 'closed' }` }>
-        <Link to="/" onClick={ this.toggleMenu }>Home</Link>
+        <Link to="/" onClick={ this.toggleMenu }>
+          <div className="building-program-link">
+            <img src={ require( '../../assets/images/church-domes.png' ) } className="bp-domes" />
+            <div className="bp-text">Building<br/>Program</div>
+          </div>
+        </Link>
         <Link to="/about" onClick={ this.toggleMenu }>About</Link>
         <Link to="/ministries" onClick={ this.toggleMenu }>Ministries</Link>
         <Link to="/giving" onClick={ this.toggleMenu }>Giving</Link>
