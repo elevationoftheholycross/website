@@ -49,7 +49,7 @@ class Nav extends Component {
   renderLinks = () => {
     return (
       <div className={`links ${ this.state.isOpen ? 'open' : 'closed' }` }>
-        <Link to="/" onClick={ this.toggleMenu }>
+        <Link to="/buildingprogram" onClick={ this.toggleMenu }>
           <div className="building-program-link">
             <img src={ require( '../../assets/images/church-domes.png' ) } className="bp-domes" />
             <div className="bp-text">Building<br/>Program</div>

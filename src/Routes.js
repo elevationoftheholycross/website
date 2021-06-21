@@ -15,6 +15,7 @@ import Sermons from './pages/Sermons';
 import History from './pages/History';
 import News from './pages/News';
 import Giving from './pages/Giving';
+import BuildingProgram from './pages/BuildingProgram';
 
 class Routes extends React.Component {
 
@@ -43,6 +44,7 @@ class Routes extends React.Component {
         <Route exact path="/news" component={ News } />
         <Route exact path="/news/:key" component={ News } />
         <Route exact path="/giving" component={ Giving } />
+        <Route exact path="/buildingprogram" component={ BuildingProgram } />
       </div>
     )
   }
