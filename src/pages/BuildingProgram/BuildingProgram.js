@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 
 import { Helmet } from "react-helmet";
 
+import Profile from '../../components/Profile';
+
 class BuildingProgram extends Component {
   
   constructor( props ) {
@@ -25,7 +27,14 @@ class BuildingProgram extends Component {
         </div>
 
         <div className="content">
-          Hello world
+        
+          <div className="section">
+            <Profile image="us.jpg" 
+                     imageDir="buildingproject"
+                     name="Who we are and where we're going" 
+                     markdown={ `Elevation of the Holy Cross Orthodox Church was founded as a mission parish in 1976 by a small group of committed Orthodox faithful who had the dream of establishing an English-language Orthodox parish in the Sacramento area.\n\nThey dreamed of a parish that would proclaim the Gospel of Jesus Christ and make the fullness of the Orthodox Faith readily accessible to anyone who desires to embrace it.\n\nSince that time, we have grown to become a vibrant community of over one-hundred regular worshippers on Sunday mornings, filling our current worship space and facilities. Some of our parishioners were baptized here as infants, were married in our parish and are now raising their own children here. And nearly half of our congregation are people embraced the Orthodox Christian faith as adults, coming from a variety of different Christian and non-Christian backgrounds.` } />
+          </div>
+
         </div>
       </div>
     )
