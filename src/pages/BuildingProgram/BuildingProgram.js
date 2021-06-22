@@ -57,7 +57,7 @@ class BuildingProgram extends Component {
             </div>
             <div className="progress-value">$90,000</div>
             <div className="progress-description">
-              <div>Raised of $100,000 <strong>annual goal</strong></div>
+              <div>Raised of $100,000 annual goal</div>
             </div>
 
             <div className="progress-data">
