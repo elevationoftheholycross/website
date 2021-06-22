@@ -35,7 +35,7 @@
     padding: 32px; }
     .Profile .bio .blurb {
       margin-top: 32px; }
-      .Profile .bio .blurb::first-letter {
+      .Profile .bio .blurb.drop-cap::first-letter {
         float: left;
         margin: 0 16px 0 0;
         padding: 10px 16px 16px 16px;

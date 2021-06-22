@@ -59,6 +59,70 @@
           .BuildingProgram .content .section.summary {
             font-size: 16px;
             line-height: 24px; } }
+      .BuildingProgram .content .section.progress {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+        .BuildingProgram .content .section.progress .progress-bar {
+          position: relative;
+          width: 100%;
+          height: 1rem;
+          margin-bottom: 32px;
+          background-color: #fff;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+          .BuildingProgram .content .section.progress .progress-bar .progress-line {
+            height: 100%;
+            background-color: #009e74; }
+        .BuildingProgram .content .section.progress .progress-value {
+          margin-bottom: 8px;
+          font-size: 36px;
+          color: #009e74; }
+        .BuildingProgram .content .section.progress .progress-description {
+          color: rgba(0, 0, 0, 0.7); }
+        .BuildingProgram .content .section.progress .progress-data {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          margin-top: 32px; }
+          .BuildingProgram .content .section.progress .progress-data .data-item {
+            flex: 1; }
+            .BuildingProgram .content .section.progress .progress-data .data-item .data-value {
+              margin-bottom: 8px;
+              font-size: 36px;
+              color: rgba(0, 0, 0, 0.7); }
+            .BuildingProgram .content .section.progress .progress-data .data-item .data-label {
+              color: rgba(0, 0, 0, 0.7); }
+      .BuildingProgram .content .section.chapter {
+        margin-top: 186px;
+        padding-top: 32px; }
+        .BuildingProgram .content .section.chapter .chapter-title {
+          margin: 0 auto 24px;
+          font-weight: 400;
+          text-align: center; }
+          @media screen and (max-width: 831px) {
+            .BuildingProgram .content .section.chapter .chapter-title {
+              padding-left: 16px;
+              padding-right: 16px; } }
+      .BuildingProgram .content .section.the-details .Profile, .BuildingProgram .content .section.the-progress .Profile, .BuildingProgram .content .section.the-plan .Profile {
+        top: calc( 128px - 37px); }
+        .BuildingProgram .content .section.the-details .Profile .image, .BuildingProgram .content .section.the-progress .Profile .image, .BuildingProgram .content .section.the-plan .Profile .image {
+          top: calc( -75px - 16px);
+          height: 150px;
+          min-height: 150px;
+          max-height: 150px; }
+          .BuildingProgram .content .section.the-details .Profile .image img, .BuildingProgram .content .section.the-progress .Profile .image img, .BuildingProgram .content .section.the-plan .Profile .image img {
+            min-height: 150px;
+            max-height: 150px;
+            width: 400px; }
+        .BuildingProgram .content .section.the-details .Profile .cover-image, .BuildingProgram .content .section.the-progress .Profile .cover-image, .BuildingProgram .content .section.the-plan .Profile .cover-image {
+          height: calc( 150px - 42px); }
+      .BuildingProgram .content .section.the-plan .Profile h3 {
+        margin-top: 48px; }
+        .BuildingProgram .content .section.the-plan .Profile h3:first-child {
+          margin-top: 0; }
       .BuildingProgram .content .section .Profile {
         top: 128px;
         max-width: 100%; }

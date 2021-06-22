@@ -29,22 +29,71 @@ class BuildingProgram extends Component {
         <div className="content">
 
           <div className="section summary">
-            <h3>The Building Program</h3>
+            <h3>The Holy Cross Building Program</h3>
             <div>
               Our vision for the future centers around the construction of a new church temple that will express the beauty of our architectural tradition and accommodate more than twice our current membership as we continue to grow and share the faith!
             </div>
           </div>
 
-          <div className="section">
-            <div>$99,999</div>
-            <div>Raised of $100,000 annual goal</div>
+          <div className="section progress">
+            <div className="progress-bar">
+              <div className="progress-line" style={{ width: '90%' }} />
+              <div style={{ position: 'absolute', top: '40px', right: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '16px', textAlign: 'right' }}>Updated monthly</div>
+            </div>
+            <div className="progress-value">$90,000</div>
+            <div className="progress-description">
+              <div>Raised of $100,000 <strong>annual goal</strong></div>
+            </div>
+
+            <div className="progress-data">
+              <div className="data-item">
+                <div className="data-value">700</div>
+                <div className="data-label">gifts given</div>
+              </div>
+              <div className="data-item">
+                <div className="data-value">24</div>
+                <div className="data-label">days to go</div>
+              </div>
+              <div className="data-item">
+                <div className="data-value">$500k</div>
+                <div className="data-label">over 3 years</div>
+              </div>
+            </div>
           </div>
         
-          <div className="section">
+          <div className="section chapter" style={{ marginTop: '32px' }}>
+            <h2 className="chapter-title">Who we are and where we're going</h2>
             <Profile image="us.jpg" 
                      imageDir="buildingproject"
-                     name="Who we are and where we're going" 
-                     markdown={ `Elevation of the Holy Cross Orthodox Church was founded as a mission parish in 1976 by a small group of committed Orthodox faithful who had the dream of establishing an English-language Orthodox parish in the Sacramento area.\n\nThey dreamed of a parish that would proclaim the Gospel of Jesus Christ and make the fullness of the Orthodox Faith readily accessible to anyone who desires to embrace it.\n\nSince that time, we have grown to become a vibrant community of over one-hundred regular worshippers on Sunday mornings, filling our current worship space and facilities. Some of our parishioners were baptized here as infants, were married in our parish and are now raising their own children here. And nearly half of our congregation are people embraced the Orthodox Christian faith as adults, coming from a variety of different Christian and non-Christian backgrounds.` } />
+                     altText="Our parishioners and our clergy" 
+                     markdown={ `Elevation of the Holy Cross Orthodox Church was founded as a mission parish in 1976 by a small group of committed Orthodox faithful who had the dream of establishing an English-language Orthodox parish in the Sacramento area.\n\nThey dreamed of a parish that would proclaim the Gospel of Jesus Christ and make the fullness of the Orthodox Faith readily accessible to anyone who desires to embrace it.\n\nSince that time, we have grown to become a vibrant community of over one-hundred regular worshippers on Sunday mornings, filling our current worship space and facilities. Some of our parishioners were baptized here as infants, were married in our parish and are now raising their own children here. And nearly half of our congregation are people embraced the Orthodox Christian faith as adults, coming from a variety of different Christian and non-Christian backgrounds.` }
+                     withoutCross />
+          </div>
+
+          <div className="section chapter the-details" id="the-details">
+            <h2 className="chapter-title">The Details</h2>
+
+            <Profile imageSrc="https://i.imgur.com/EOFATv1.jpg"
+                     altText="Blueprints"
+                     markdown={ `**The complete development of our site** will be a **multi-phase project** designed to meet the long-term needs of our growing community.  Elements of the master site plan include:\n- New Church Building with Fellowship Hall\n- Renovated Education Building\n- Covered and open-air outdoor fellowship spaces\n- Parking adequate to meet our planned growth\n- Expanded facilities for our [Food Closet Ministry](/outreachandcharity)` }
+                     withoutCross />
+          </div>
+
+          <div className="section chapter the-progress" id="the-progress">
+            <h2 className="chapter-title">The Progress</h2>
+            <Profile imageSrc="https://i.imgur.com/Eugz49Y.jpg"
+                     altText="Blueprints"
+                     markdown={ `We have raised over $100,000 each year for the past three years, bringing us to **over $500,000 in our building fund**. Our **fundraising goal** over the next two years is to **continue to raise at least $100,000 per year *and* to raise enough to complete the [Phase One](#the-plan) work without a loan**.` }
+                     withoutCross />
+          </div>
+
+          <div className="section chapter the-plan" id="the-plan">
+            <h2 className="chapter-title">The Plan</h2>
+            <Profile imageSrc="https://i.imgur.com/En9kkTv.jpeg"
+                     altText="Blueprints"
+                     markdown={ PLAN_MARKDOWN }
+                     withoutCross
+                     withoutDropCap />
           </div>
 
         </div>
@@ -52,5 +101,31 @@ class BuildingProgram extends Component {
     )
   }
 }
+
+const PLAN_MARKDOWN = `
+### Phase One (2021-2022)
+
+Our first phase of work – “Phase One” – involves the installation of all **site improvements** (parking lots, landscaping and required utilities, grading and storm drainage, etc.) that are **necessary for our new church and other facilities**.
+
+**This work is now underway**, as we have engaged a civil engineer and landscape architect to first prepare the necessary design documents and permits needed to complete this initial effort.
+
+**With the help of God, we hope to complete Phase One work by the end of 2022.**
+
+### Phase Two (2023-2027)
+
+Our second phase is the most anticipated as it centers on **the construction of our new temple and fellowship hall**. 
+
+The design, as blessed by our Hierarch, Parish Council and general membership, incorporates a daylight Fellowship Hall under our scared space in a single structure. The Temple features a traditional byzantine dome, the crown of our design, bearing witness to the beauty of our faith and the Incarnational reality that *God is with us* in the Person of Jesus Christ. 
+
+**We hope to begin construction by our parish’s 50th Anniversary, on Sept. 14th 2026**.
+
+### Further Phases (2027 and beyond)
+
+Once the new church and hall have been constructed, several more phases will be needed to complete the development of our property. These include:
+
+- Conversion of our current chapel into multiple classrooms for [church school, adult bible study and other ministries](/education).
+- Expansion of our [Archangel Michael Food Closet](/outreachandcharity) facilities, currently serving 65 needy families in our community, to double the impact of this ministry.
+- Iconography work to beautify the interior of our new church.
+`
 
 export default BuildingProgram;
