@@ -6,11 +6,26 @@ import { Link } from 'react-router-dom';
 import { Helmet } from "react-helmet";
 
 import Profile from '../../components/Profile';
+import AplosModal from '../../components/AplosModal';
 
 class BuildingProgram extends Component {
   
   constructor( props ) {
     super( props );
+
+    this.state = {
+      showAplosModal: false
+    };
+  }
+
+  toggleAplosModal = () => {
+    if( this.state.showAplosModal ) {
+      document.querySelector( 'body' ).setAttribute( 'style', '' )
+    } else {
+      document.querySelector( 'body' ).setAttribute( 'style', 'overflow: hidden;' )
+    }
+
+    this.setState({ showAplosModal: !this.state.showAplosModal });
   }
 
   render() {
@@ -59,6 +74,8 @@ class BuildingProgram extends Component {
                 <div className="data-label">over 3 years</div>
               </div>
             </div>
+
+            <button className="donate-button" style={{ display: 'block', width: '100%', marginTop: '32px' }} onClick={ this.toggleAplosModal }>Contribute today</button>
           </div>
         
           <div className="section chapter" style={{ marginTop: '32px' }}>
@@ -96,7 +113,35 @@ class BuildingProgram extends Component {
                      withoutDropCap />
           </div>
 
+          <div className="section chapter coming-soon" id="coming-soon">
+            <h2 className="chapter-title">Coming Soon</h2>
+            
+            <p>
+              We are excited to announce that <strong>our architectural renderings will be completed soon</strong>. These tools will illustrate our completed master plan as well as share exciting details of our project. 
+            </p>
+            <p>
+              Stay tuned for these exciting images! 
+            </p>
+          </div>
+
+          <div className="section chapter celebrate" id="celebrate" style={{ marginTop: '64px' }}>
+            <h2 className="chapter-title">Celebrate with Us</h2>
+            
+            <p>
+              Our vision and prayer is to begin constructing our new church by the time we celebrate our 50th Anniversary, 
+              in September of 2026. We are convinced that God has called us to this holy work and that with 
+              Him all things are possible.  We invite all who feel called and inspired to share in this holy work to help 
+              contribute to the building up of Christ’s Holy Church in Sacramento. 
+            </p>
+
+            <div style={{ width: '100%', padding: '0 16px' }}>
+              <button className="donate-button" style={{ display: 'block', margin: '32px auto 0' }} onClick={ this.toggleAplosModal }>Contribute today</button>
+            </div>
+          </div>
+
         </div>
+
+        <AplosModal show={ this.state.showAplosModal } toggle={ this.toggleAplosModal } />
       </div>
     )
   }
