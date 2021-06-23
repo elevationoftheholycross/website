@@ -88,12 +88,15 @@
           width: 100%;
           margin-top: 32px; }
           .BuildingProgram .content .section.progress .progress-data .data-item {
-            flex: 1; }
+            flex: 1;
+            position: relative; }
             .BuildingProgram .content .section.progress .progress-data .data-item .data-value {
+              position: relative;
               margin-bottom: 8px;
               font-size: 36px;
               color: rgba(0, 0, 0, 0.7); }
             .BuildingProgram .content .section.progress .progress-data .data-item .data-label {
+              position: relative;
               color: rgba(0, 0, 0, 0.7); }
       .BuildingProgram .content .section.chapter {
         margin-top: 186px;

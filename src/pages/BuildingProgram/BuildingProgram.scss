@@ -125,12 +125,16 @@
           .data-item {
             flex: 1;
 
+            position: relative;
+
             .data-value {
+              position: relative;
               margin-bottom: 8px;
               font-size: 36px;
               color: rgba( 0, 0, 0, .7 );
             }
             .data-label {
+              position: relative;
               color: rgba(0, 0, 0, .7);
             }
           }

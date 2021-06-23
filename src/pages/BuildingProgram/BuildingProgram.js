@@ -52,12 +52,12 @@ class BuildingProgram extends Component {
 
           <div className="section progress">
             <div className="progress-bar">
-              <div className="progress-line" style={{ width: '90%' }} />
+              <div className="progress-line" style={{ width: '44%' }} />
               <div style={{ position: 'absolute', top: '40px', right: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '16px', textAlign: 'right' }}>Updated monthly</div>
             </div>
-            <div className="progress-value">$90,000</div>
+            <div className="progress-value">$44,000</div>
             <div className="progress-description">
-              <div>Raised of $100,000 annual goal</div>
+              <div>raised of $100,000 annual goal</div>
             </div>
 
             <div className="progress-data">
@@ -66,12 +66,15 @@ class BuildingProgram extends Component {
                 <div className="data-label">gifts given</div>
               </div>
               <div className="data-item">
-                <div className="data-value">24</div>
-                <div className="data-label">days to go</div>
+                <div className="data-value">7</div>
+                <div className="data-label">months to go</div>
               </div>
               <div className="data-item">
-                <div className="data-value">$500k</div>
-                <div className="data-label">over 3 years</div>
+                <div className="data-value">$551k</div>
+                <div className="data-label">
+                  <span>so far</span>
+                  {/* <span style={{ position: 'absolute', top: '20px', left: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '14px', textAlign: 'left' }}>as of 5/31/2021</span> */}
+                </div>
               </div>
             </div>
 
@@ -83,7 +86,7 @@ class BuildingProgram extends Component {
             <Profile image="us.jpg" 
                      imageDir="buildingproject"
                      altText="Our parishioners and our clergy" 
-                     markdown={ `Elevation of the Holy Cross Orthodox Church was founded as a mission parish in 1976 by a small group of committed Orthodox faithful who had the dream of establishing an English-language Orthodox parish in the Sacramento area.\n\nThey dreamed of a parish that would proclaim the Gospel of Jesus Christ and make the fullness of the Orthodox Faith readily accessible to anyone who desires to embrace it.\n\nSince that time, we have grown to become a vibrant community of over one-hundred regular worshippers on Sunday mornings, filling our current worship space and facilities. Some of our parishioners were baptized here as infants, were married in our parish and are now raising their own children here. And nearly half of our congregation are people embraced the Orthodox Christian faith as adults, coming from a variety of different Christian and non-Christian backgrounds.` }
+                     markdown={ `Elevation of the Holy Cross Orthodox Church was founded as a mission parish in 1976 by a small group of committed Orthodox faithful who had the dream of establishing an English-language Orthodox parish in the Sacramento area.\n\nThey dreamed of a parish that would proclaim the Gospel of Jesus Christ and make the fullness of the Orthodox Faith readily accessible to anyone who desires to embrace it.\n\nSince that time, we have grown to become a vibrant community of over one-hundred regular worshippers on Sunday mornings, filling our current worship space and facilities. Some of our parishioners were baptized here as infants, were married in our parish and are now raising their own children here. And nearly half of our congregation are people who embraced the Orthodox Christian faith as adults, coming from a variety of different Christian and non-Christian backgrounds.` }
                      withoutCross />
           </div>
 
