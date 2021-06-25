@@ -100,7 +100,9 @@
               color: rgba(0, 0, 0, 0.7); }
       .BuildingProgram .content .section.chapter {
         margin-top: 186px;
-        padding-top: 32px; }
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px; }
         .BuildingProgram .content .section.chapter .chapter-title {
           margin: 0 auto 24px;
           font-weight: 400;
@@ -109,22 +111,22 @@
             .BuildingProgram .content .section.chapter .chapter-title {
               padding-left: 16px;
               padding-right: 16px; } }
-      .BuildingProgram .content .section.the-details .Profile, .BuildingProgram .content .section.the-progress .Profile, .BuildingProgram .content .section.the-plan .Profile {
+      .BuildingProgram .content .section.the-details .Profile, .BuildingProgram .content .section.the-progress .Profile, .BuildingProgram .content .section.the-roadmap .Profile {
         top: calc( 128px - 37px); }
-        .BuildingProgram .content .section.the-details .Profile .image, .BuildingProgram .content .section.the-progress .Profile .image, .BuildingProgram .content .section.the-plan .Profile .image {
+        .BuildingProgram .content .section.the-details .Profile .image, .BuildingProgram .content .section.the-progress .Profile .image, .BuildingProgram .content .section.the-roadmap .Profile .image {
           top: calc( -75px - 16px);
           height: 150px;
           min-height: 150px;
           max-height: 150px; }
-          .BuildingProgram .content .section.the-details .Profile .image img, .BuildingProgram .content .section.the-progress .Profile .image img, .BuildingProgram .content .section.the-plan .Profile .image img {
+          .BuildingProgram .content .section.the-details .Profile .image img, .BuildingProgram .content .section.the-progress .Profile .image img, .BuildingProgram .content .section.the-roadmap .Profile .image img {
             min-height: 150px;
             max-height: 150px;
             width: 400px; }
-        .BuildingProgram .content .section.the-details .Profile .cover-image, .BuildingProgram .content .section.the-progress .Profile .cover-image, .BuildingProgram .content .section.the-plan .Profile .cover-image {
+        .BuildingProgram .content .section.the-details .Profile .cover-image, .BuildingProgram .content .section.the-progress .Profile .cover-image, .BuildingProgram .content .section.the-roadmap .Profile .cover-image {
           height: calc( 150px - 42px); }
-      .BuildingProgram .content .section.the-plan .Profile h3 {
+      .BuildingProgram .content .section.the-roadmap .Profile h3 {
         margin-top: 48px; }
-        .BuildingProgram .content .section.the-plan .Profile h3:first-child {
+        .BuildingProgram .content .section.the-roadmap .Profile h3:first-child {
           margin-top: 0; }
       .BuildingProgram .content .section .Profile {
         top: 128px;

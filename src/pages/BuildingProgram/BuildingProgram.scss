@@ -144,6 +144,8 @@
       &.chapter {
         margin-top: 186px;
         padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
 
         .chapter-title {
           margin: 0 auto 24px;
@@ -160,7 +162,7 @@
 
       &.the-details,
       &.the-progress,
-      &.the-plan {
+      &.the-roadmap {
         .Profile {
           top: calc( 128px - 37px );
 
@@ -182,7 +184,7 @@
           }
         }
       }
-      &.the-plan {
+      &.the-roadmap {
         .Profile h3 {
           margin-top: 48px;
 
