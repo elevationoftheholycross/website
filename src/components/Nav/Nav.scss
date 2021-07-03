@@ -30,7 +30,7 @@
         padding: 0 16px;
         margin-right: 16px;
         border: none;
-        background-color: none;
+        background-color: transparent;
 
         font-size: 32px;
         color: #b71c1c;
@@ -49,6 +49,7 @@
         }
 
         .material-icons {
+          background-color: transparent;
           font-size: 48px;
         }
       }
@@ -59,11 +60,48 @@
       }
 
       .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
         margin-right: 16px;
 
         a {
+          display: inline-block;
           font-family: 'Playfair Display', serif;
           font-size: 20px;
+        }
+
+        .building-program-link {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          position: relative;
+          // height: 60px;
+          // width: 79px;
+          padding: 4px 8px;
+          border: 1px solid #FF8F00;
+          
+          .bp-domes {
+            position: relative;
+            height: 48px;
+            margin-right: 8px;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+
+            opacity: 1;
+          }
+
+          .bp-text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            line-height: 22px;
+          }
         }
 
         @media screen and ( max-width: 768px ) {
@@ -92,6 +130,23 @@
 
           & a {
             font-size: 32px;
+          }
+
+          .building-program-link {
+            padding: 6px 12px;
+
+            .bp-domes {
+              height: 60px;
+            }
+
+            .bp-text {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              font-size: 28px;
+              line-height: 32px;
+            }
           }
         }
       }

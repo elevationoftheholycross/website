@@ -36,6 +36,11 @@ class Home extends Component {
         </Helmet>
 
         <div className="hero">
+          <Link to="/buildingprogram" className="building-program-alert">
+            <span className="badge">NEW!</span>
+            <span className="text">The Holy Cross Building Program</span>
+          </Link>
+
           <h1>Elevation of the Holy Cross</h1>
           <h2>Orthodox Christian Church</h2>
         </div>

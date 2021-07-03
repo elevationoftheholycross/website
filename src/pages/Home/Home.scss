@@ -37,6 +37,45 @@
       font-size: calc( 16px + 1.5vw );
       color: rgba(0, 0, 0, .6);
     }
+
+    .building-program-alert {
+      display: none;
+      // display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-bottom: 32px;
+      background-color: rgba( 0, 0, 0, .7 );
+      padding: 8px 16px 8px 8px;
+      border-radius: 32px;
+
+      text-decoration: none;
+      border-bottom: none;
+      background-image: none;
+
+      @media screen and (max-width: 768px) {
+        display: flex;
+      }
+
+      .badge {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-right: 8px;
+        padding: 4px 8px 4px;
+        background-color: #b71c1c;
+        border-radius: 16px;
+
+        color: #fff;
+        font-size: .8rem;
+        font-weight: bold;
+      }
+
+      .text {
+        color: #fff;
+      }
+    }
   }
 
   .content {
@@ -94,6 +133,10 @@
           margin-top: -28vh;
           margin-left: auto;
           margin-right: auto;
+
+          @media screen and (max-width: 768px) {
+            transform: scale( .5 );
+          }
         }
 
         .box {

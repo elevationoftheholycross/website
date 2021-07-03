@@ -1,0 +1,219 @@
+.BuildingProgram {
+  position: relative;
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 50vh;
+    width: 100vw;
+    padding-top: 64px;
+
+    background: url('../../assets/images/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    h1 {
+      margin: 0 32px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid rgba( 0, 0, 0, .1 );
+
+      text-align: center;
+      font-weight: 400;
+      font-size: 36px;
+      color: rgba(0, 0, 0, .84);
+    }
+
+    h2 {
+      // width: calc(( 24px + 3vw ) * 10.3);
+      width: clamp(400px, calc((24px + 3vw) * 10.3), 656px);
+      margin: 24px 32px 0 32px;
+
+      text-align: left;
+      font-weight: 400;
+      font-size: 18px;
+      color: rgba( 0, 0, 0, .84 );
+    }
+
+    @media screen and ( max-width: 640px ) {
+      height: 40vh;
+      padding-top: 76px;
+
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        max-width: calc( 100% - 32px );
+        font-size: 16px;
+      }
+    }
+  }
+
+  .content {
+    padding-bottom: 128px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03), 0 -2px 8px rgba(0, 0, 0, 0.03);
+
+    font-family: 'Roboto', 'system', sans-serif;
+    font-size: 19px;
+    line-height: calc( 19px * 1.615 );
+
+    .section {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 28px;
+
+      &:first-child {
+        padding-top: 16px;
+      }
+
+      &.summary {
+        padding-left: 16px;
+        padding-right: 16px;
+
+        font-size: 18px;
+
+        @media screen and (max-width: 640px) {
+          font-size: 16px;
+          line-height: 24px;
+        }
+      }
+
+      &.progress {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+        .progress-bar {
+          position: relative;
+          width: 100%;
+          height: 1rem;
+          margin-bottom: 32px;
+          background-color: #fff;
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+          .progress-line {
+            height: 100%;
+            background-color: rgb( 0, 158, 116 );
+          }
+        }
+
+        .progress-value {
+          margin-bottom: 8px;
+          font-size: 36px;
+          color: rgb( 0, 158, 116 );
+        }
+        .progress-description {
+          color: rgba( 0, 0, 0, .7 );
+        }
+
+        .progress-data {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          width: 100%;
+          margin-top: 32px;
+
+          .data-item {
+            flex: 1;
+
+            position: relative;
+
+            .data-value {
+              position: relative;
+              margin-bottom: 8px;
+              font-size: 36px;
+              color: rgba( 0, 0, 0, .7 );
+            }
+            .data-label {
+              position: relative;
+              color: rgba(0, 0, 0, .7);
+            }
+          }
+        }
+      }
+
+      &.chapter {
+        margin-top: 186px;
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+
+        .chapter-title {
+          margin: 0 auto 24px;
+          
+          font-weight: 400;
+          text-align: center;
+
+          @media screen and (max-width: 831px) {
+            padding-left: 16px;
+            padding-right: 16px;
+          }
+        }
+      }
+
+      &.the-details,
+      &.the-progress,
+      &.the-roadmap {
+        .Profile {
+          top: calc( 128px - 37px );
+
+          .image {
+            top: calc( -75px - 16px );
+            height: 150px;
+            min-height: 150px;
+            max-height: 150px;
+
+            img {
+              min-height: 150px;
+              max-height: 150px;
+              width: 400px;
+            }
+          }
+
+          .cover-image {
+            height: calc( 150px - 42px );
+          }
+        }
+      }
+      &.the-roadmap {
+        .Profile h3 {
+          margin-top: 48px;
+
+          &:first-child {
+            margin-top: 0;
+          }
+        }
+      }
+
+      .Profile {
+        top: 128px;
+        max-width: 100%;
+
+        .image {
+          img {
+            object-fit: cover;
+
+            max-width: 100%;
+            width: auto;
+            height: auto;
+          }
+        }
+
+        h3 {
+          margin: 0;
+          text-align: center;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

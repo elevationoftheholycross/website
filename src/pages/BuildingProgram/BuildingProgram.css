@@ -1,0 +1,142 @@
+.BuildingProgram {
+  position: relative; }
+  .BuildingProgram .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+    padding-top: 64px;
+    background: url("../../assets/images/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    .BuildingProgram .hero h1 {
+      margin: 0 32px;
+      padding-bottom: 16px;
+      border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-weight: 400;
+      font-size: 36px;
+      color: rgba(0, 0, 0, 0.84); }
+    .BuildingProgram .hero h2 {
+      width: clamp(400px, calc((24px + 3vw) * 10.3), 656px);
+      margin: 24px 32px 0 32px;
+      text-align: left;
+      font-weight: 400;
+      font-size: 18px;
+      color: rgba(0, 0, 0, 0.84); }
+    @media screen and (max-width: 640px) {
+      .BuildingProgram .hero {
+        height: 40vh;
+        padding-top: 76px; }
+        .BuildingProgram .hero h1 {
+          font-size: 24px; }
+        .BuildingProgram .hero h2 {
+          max-width: calc( 100% - 32px);
+          font-size: 16px; } }
+  .BuildingProgram .content {
+    padding-bottom: 128px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.03), 0 -2px 4px rgba(0, 0, 0, 0.03), 0 -2px 8px rgba(0, 0, 0, 0.03);
+    font-family: 'Roboto', 'system', sans-serif;
+    font-size: 19px;
+    line-height: calc( 19px * 1.615); }
+    .BuildingProgram .content .section {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 28px; }
+      .BuildingProgram .content .section:first-child {
+        padding-top: 16px; }
+      .BuildingProgram .content .section.summary {
+        padding-left: 16px;
+        padding-right: 16px;
+        font-size: 18px; }
+        @media screen and (max-width: 640px) {
+          .BuildingProgram .content .section.summary {
+            font-size: 16px;
+            line-height: 24px; } }
+      .BuildingProgram .content .section.progress {
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 32px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+        .BuildingProgram .content .section.progress .progress-bar {
+          position: relative;
+          width: 100%;
+          height: 1rem;
+          margin-bottom: 32px;
+          background-color: #fff;
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); }
+          .BuildingProgram .content .section.progress .progress-bar .progress-line {
+            height: 100%;
+            background-color: #009e74; }
+        .BuildingProgram .content .section.progress .progress-value {
+          margin-bottom: 8px;
+          font-size: 36px;
+          color: #009e74; }
+        .BuildingProgram .content .section.progress .progress-description {
+          color: rgba(0, 0, 0, 0.7); }
+        .BuildingProgram .content .section.progress .progress-data {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+          margin-top: 32px; }
+          .BuildingProgram .content .section.progress .progress-data .data-item {
+            flex: 1;
+            position: relative; }
+            .BuildingProgram .content .section.progress .progress-data .data-item .data-value {
+              position: relative;
+              margin-bottom: 8px;
+              font-size: 36px;
+              color: rgba(0, 0, 0, 0.7); }
+            .BuildingProgram .content .section.progress .progress-data .data-item .data-label {
+              position: relative;
+              color: rgba(0, 0, 0, 0.7); }
+      .BuildingProgram .content .section.chapter {
+        margin-top: 186px;
+        padding-top: 32px;
+        padding-left: 16px;
+        padding-right: 16px; }
+        .BuildingProgram .content .section.chapter .chapter-title {
+          margin: 0 auto 24px;
+          font-weight: 400;
+          text-align: center; }
+          @media screen and (max-width: 831px) {
+            .BuildingProgram .content .section.chapter .chapter-title {
+              padding-left: 16px;
+              padding-right: 16px; } }
+      .BuildingProgram .content .section.the-details .Profile, .BuildingProgram .content .section.the-progress .Profile, .BuildingProgram .content .section.the-roadmap .Profile {
+        top: calc( 128px - 37px); }
+        .BuildingProgram .content .section.the-details .Profile .image, .BuildingProgram .content .section.the-progress .Profile .image, .BuildingProgram .content .section.the-roadmap .Profile .image {
+          top: calc( -75px - 16px);
+          height: 150px;
+          min-height: 150px;
+          max-height: 150px; }
+          .BuildingProgram .content .section.the-details .Profile .image img, .BuildingProgram .content .section.the-progress .Profile .image img, .BuildingProgram .content .section.the-roadmap .Profile .image img {
+            min-height: 150px;
+            max-height: 150px;
+            width: 400px; }
+        .BuildingProgram .content .section.the-details .Profile .cover-image, .BuildingProgram .content .section.the-progress .Profile .cover-image, .BuildingProgram .content .section.the-roadmap .Profile .cover-image {
+          height: calc( 150px - 42px); }
+      .BuildingProgram .content .section.the-roadmap .Profile h3 {
+        margin-top: 48px; }
+        .BuildingProgram .content .section.the-roadmap .Profile h3:first-child {
+          margin-top: 0; }
+      .BuildingProgram .content .section .Profile {
+        top: 128px;
+        max-width: 100%; }
+        .BuildingProgram .content .section .Profile .image img {
+          object-fit: cover;
+          max-width: 100%;
+          width: auto;
+          height: auto; }
+        .BuildingProgram .content .section .Profile h3 {
+          margin: 0;
+          text-align: center;
+          font-weight: 400; }
