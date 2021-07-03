@@ -62,8 +62,8 @@ class BuildingProgram extends Component {
 
             <div className="progress-data">
               <div className="data-item">
-                <div className="data-value">700</div>
-                <div className="data-label">gifts given</div>
+                <div className="data-value">43</div>
+                <div className="data-label">donors</div>
               </div>
               <div className="data-item">
                 <div className="data-value">7</div>
