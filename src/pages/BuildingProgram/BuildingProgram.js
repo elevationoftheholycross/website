@@ -55,7 +55,7 @@ class BuildingProgram extends Component {
               <div className="progress-line" style={{ width: '44%' }} />
               <div style={{ position: 'absolute', top: '40px', right: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '16px', textAlign: 'right' }}>Updated monthly</div>
             </div>
-            <div className="progress-value">$44,000</div>
+            <div className="progress-value">$46,405</div>
             <div className="progress-description">
               <div>raised of $100,000 annual goal</div>
             </div>
@@ -66,11 +66,11 @@ class BuildingProgram extends Component {
                 <div className="data-label">donors</div>
               </div>
               <div className="data-item">
-                <div className="data-value">7</div>
+                <div className="data-value">6</div>
                 <div className="data-label">months to go</div>
               </div>
               <div className="data-item">
-                <div className="data-value">$551k</div>
+                <div className="data-value">$555k</div>
                 <div className="data-label">
                   <span>so far</span>
                   {/* <span style={{ position: 'absolute', top: '20px', left: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '14px', textAlign: 'left' }}>as of 5/31/2021</span> */}
