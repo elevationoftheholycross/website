@@ -147,7 +147,7 @@ class Home extends Component {
                 <span>
                   <a href="https://www.facebook.com/holycrosssacramento/" target="_blank" rel="noopener noreferrer">Facebook</a>
                   <p>
-                    <a href="https://twitter.com/HolyCrossOCA" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="https://www.youtube.com/channel/UCU14tasgZXm9zHKrcc2vXiQ" target="_blank" rel="noopener noreferrer">YouTube</a>
                   </p>
                   <p>
                     <a href="https://www.instagram.com/holycross.sac/" target="_blank" rel="noopener noreferrer">Instagram</a>
