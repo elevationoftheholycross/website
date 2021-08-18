@@ -8,6 +8,14 @@ import { Helmet } from "react-helmet";
 import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
+const PROGRESS_VALUES = {
+  annualProgress: 53251,
+  annualGoal: 100000,
+  total: 561997,
+  monthsRemaining: 5,
+  donors: 45
+}
+
 class BuildingProgram extends Component {
   
   constructor( props ) {
@@ -52,27 +60,27 @@ class BuildingProgram extends Component {
 
           <div className="section progress">
             <div className="progress-bar">
-              <div className="progress-line" style={{ width: '44%' }} />
+              <div className="progress-line" style={{ width: `${ ( PROGRESS_VALUES.annualProgress / PROGRESS_VALUES.annualGoal ) * 100 }%` }} />
               <div style={{ position: 'absolute', top: '40px', right: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '16px', textAlign: 'right' }}>Updated monthly</div>
             </div>
-            <div className="progress-value">$46,405</div>
+            <div className="progress-value">{ `$${ PROGRESS_VALUES.annualProgress.toLocaleString( 'en-US' ) }` }</div>
             <div className="progress-description">
               <div>raised of $100,000 annual goal</div>
             </div>
 
             <div className="progress-data">
               <div className="data-item">
-                <div className="data-value">43</div>
+                <div className="data-value">{ PROGRESS_VALUES.donors }</div>
                 <div className="data-label">donors</div>
               </div>
               <div className="data-item">
-                <div className="data-value">6</div>
+                <div className="data-value">{ PROGRESS_VALUES.monthsRemaining }</div>
                 <div className="data-label">months to go</div>
               </div>
               <div className="data-item">
-                <div className="data-value">$555k</div>
+                <div className="data-value">{ `$${ PROGRESS_VALUES.total.toLocaleString( 'en-US' ) }` }</div>
                 <div className="data-label">
-                  <span>so far</span>
+                  <span>total progress</span>
                   {/* <span style={{ position: 'absolute', top: '20px', left: '0', color: 'rgba( 0, 0, 0, .5 )', fontSize: '14px', textAlign: 'left' }}>as of 5/31/2021</span> */}
                 </div>
               </div>
