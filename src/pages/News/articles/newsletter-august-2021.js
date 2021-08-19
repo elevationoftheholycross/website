@@ -45,7 +45,7 @@ const newsletterAugust2021 = ({ imagePrefix }) => {
 
               <div className="article-body" style={{ clear: 'all' }}>
                 <div style={{ float: 'right', maxWidth: '50%', marginLeft: '2rem' }}>
-                  <img src={ require('../../../assets/images/news/newsletter-may-2021-archbishop-benjamin-message.jpg') } alt="2021 Paschal Message of His Eminence, Archbishop Benjamin" />
+                  <img src={ require('../../../assets/images/news/newsletter-august-2021-holy-cross.jpg') } alt="2021 Paschal Message of His Eminence, Archbishop Benjamin" />
                 </div>
 
                 <h4>St. John Chrysostom</h4>
