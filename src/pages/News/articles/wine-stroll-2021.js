@@ -26,12 +26,24 @@ const wineStroll2021 = ({ imagePrefix }) => {
       </div>
 
       <div className="body">
+        <div style={{ width: '100%', textAlign: 'center' }}>
+          <a href="https://www.aplos.com/aws/events/wine_stroll" target="_blank" rel="noopener noreferrer">
+            Buy tickets to Wine Stroll 2021
+          </a>
+        </div>
+
         <div className="main-article">
           <Document
             file={ pdf }
             onLoadSuccess={() => {}}>
             <Page pageNumber={ 1 } />
           </Document>
+        </div>
+
+        <div style={{ width: '100%', textAlign: 'center' }}>
+          <a href="https://www.aplos.com/aws/events/wine_stroll" target="_blank" rel="noopener noreferrer">
+            Buy tickets to Wine Stroll 2021
+          </a>
         </div>
       </div>
     </div>
