@@ -75,7 +75,7 @@ class BuildingProgram extends Component {
               </div>
               <div className="data-item">
                 <div className="data-value">{ PROGRESS_VALUES.monthsRemaining }</div>
-                <div className="data-label">months to go</div>
+                <div className="data-label">month{ PROGRESS_VALUES.monthsRemaining !== 1 ? 's' : '' } to go</div>
               </div>
               <div className="data-item">
                 <div className="data-value">{ `$${ PROGRESS_VALUES.total.toLocaleString( 'en-US' ) }` }</div>
