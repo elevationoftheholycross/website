@@ -9,10 +9,10 @@ import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
 const PROGRESS_VALUES = {
-  annualProgress: 79488,
-  annualGoal: 100000,
-  total: 603778,
-  monthsRemaining: 1,
+  annualProgress: 1000,
+  annualGoal: 125000,
+  total: 625000,
+  monthsRemaining: 11,
   donors: 50
 }
 
@@ -22,7 +22,9 @@ class BuildingProgram extends Component {
     super( props );
 
     this.state = {
-      showAplosModal: false
+      showAplosModal: false,
+      showImageModal: false,
+      zoomedImage: null
     };
   }
 
@@ -36,6 +38,31 @@ class BuildingProgram extends Component {
     this.setState({ showAplosModal: !this.state.showAplosModal });
   }
 
+  toggleImageModal = ( imageSrc ) => {
+    if( this.state.showImageModal ) {
+      document.body.style.overflowY = 'auto';
+    } else {
+      document.body.style.overflowY = 'hidden';
+    }
+
+    this.setState({
+      zoomedImage: imageSrc,
+      showImageModal: !this.state.showImageModal
+    });
+  }
+
+  renderImageModal = () => {
+    return (
+      <div className="imageModal">
+        <div className="backdrop" onClick={ () => { this.toggleImageModal( this.state.zoomedImage ) } } />
+
+        <div className="image">
+          <img src={ require( `../../assets/images/buildingproject/${ this.state.zoomedImage || 'render-front-view.png' }` ) } />
+        </div>
+      </div>
+    )
+  }
+
   render() {
     return (
       <div className="BuildingProgram">
@@ -44,9 +71,11 @@ class BuildingProgram extends Component {
         </Helmet>
 
         <div className="hero">
-          <h1>Building for the Future</h1>
-          <h2><em>Therefore by Him let us continually offer the sacrifice of praise to God, that is, the fruit of our lips, giving thanks to His name. <span style={{ color: '#FF6F00' }}>But do not forget to do good and to share, for with such sacrifices God is well pleased.</span></em></h2>
-          <h2>Heb. 13: 15-16</h2>
+          <div className="hero-stuff">
+            <h1>Building for the Future</h1>
+            <h2><em>Therefore by Him let us continually offer the sacrifice of praise to God, that is, the fruit of our lips, giving thanks to His name. <span style={{ color: '#FF6F00' }}>But do not forget to do good and to share, for with such sacrifices God is well pleased.</span></em></h2>
+            <h2>Heb. 13: 15-16</h2>
+          </div>
         </div>
 
         <div className="content">
@@ -65,7 +94,7 @@ class BuildingProgram extends Component {
             </div>
             <div className="progress-value">{ `$${ PROGRESS_VALUES.annualProgress.toLocaleString( 'en-US' ) }` }</div>
             <div className="progress-description">
-              <div>raised of $100,000 annual goal</div>
+              <div>raised of { `$${ PROGRESS_VALUES.annualGoal.toLocaleString( 'en-US' ) }` } annual goal</div>
             </div>
 
             <div className="progress-data">
@@ -88,8 +117,27 @@ class BuildingProgram extends Component {
 
             <button className="donate-button" style={{ display: 'block', width: '100%', marginTop: '32px' }} onClick={ this.toggleAplosModal }>Contribute today</button>
           </div>
+
+          <div className="section chapter the-temple" style={{ marginTop: '32px' }}>
+            <h2 className="chapter-title">The Temple</h2>
+
+            <div className="gallery">
+              <div className="image" onClick={ () => { this.toggleImageModal( 'render-front-view.png' ) } }>
+                <img className="thumbnail" src={ require( '../../assets/images/buildingproject/render-front-view.png' ) } />
+              </div>
+              <div className="image" onClick={ () => { this.toggleImageModal( 'render-front-aerial-view.png' ) } }>
+                <img className="thumbnail" src={ require( '../../assets/images/buildingproject/render-front-aerial-view.png' ) } />
+              </div>
+              <div className="image" onClick={ () => { this.toggleImageModal( 'render-rear-view.png' ) } }>
+                <img className="thumbnail" src={ require( '../../assets/images/buildingproject/render-rear-view.png' ) } />
+              </div>
+              <div className="image" onClick={ () => { this.toggleImageModal( 'site-plan.png' ) } }>
+                <img className="thumbnail" src={ require( '../../assets/images/buildingproject/site-plan.png' ) } />
+              </div>
+            </div>
+          </div>
         
-          <div className="section chapter" style={{ marginTop: '32px' }}>
+          <div className="section chapter" style={{ marginTop: '64px' }}>
             <h2 className="chapter-title">Who we are and where we're going</h2>
             <Profile image="us.jpg" 
                      imageDir="buildingproject"
@@ -112,7 +160,7 @@ class BuildingProgram extends Component {
             <h2 className="chapter-title">The Progress</h2>
             <Profile imageSrc="https://i.imgur.com/Eugz49Y.jpg"
                      altText="The Progress"
-                     markdown={ `We have raised over $100,000 each year for the past three years, bringing us to **over $500,000 in our building fund**. Our **fundraising goal** over the next two years is to **continue to raise at least $100,000 per year *and* enough to complete the [Phase One](#the-roadmap) work without a loan**.` }
+                     markdown={ `We have raised over $100,000 each year for the past four years, bringing us to **over $600,000 in our building fund**. Our **fundraising goal** over the next two years is to **continue to raise at least $100,000 per year *and* enough to complete the [Phase One](#the-roadmap) work without a loan**.` }
                      withoutCross />
           </div>
 
@@ -153,6 +201,8 @@ class BuildingProgram extends Component {
           </div>
 
         </div>
+
+        { this.state.showImageModal && this.renderImageModal() }
 
         <AplosModal show={ this.state.showAplosModal } toggle={ this.toggleAplosModal } />
       </div>

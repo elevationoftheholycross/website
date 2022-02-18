@@ -5,14 +5,22 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 50vh;
+    height: 70vh;
     width: 100vw;
     padding-top: 64px;
-    background: url("../../assets/images/bg.jpg") no-repeat center center fixed;
+    background: url("../../assets/images/buildingproject/render-front-view.png") no-repeat center 60% fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
+    .BuildingProgram .hero .hero-stuff {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff; }
     .BuildingProgram .hero h1 {
       margin: 0 32px;
       padding-bottom: 16px;
@@ -20,18 +28,21 @@
       text-align: center;
       font-weight: 400;
       font-size: 36px;
-      color: rgba(0, 0, 0, 0.84); }
+      color: #fff; }
     .BuildingProgram .hero h2 {
       width: clamp(400px, calc((24px + 3vw) * 10.3), 656px);
       margin: 24px 32px 0 32px;
       text-align: left;
       font-weight: 400;
       font-size: 18px;
-      color: rgba(0, 0, 0, 0.84); }
+      color: #fff; }
     @media screen and (max-width: 640px) {
       .BuildingProgram .hero {
-        height: 40vh;
+        height: 50vh;
         padding-top: 76px; }
+        .BuildingProgram .hero .hero-stuff {
+          width: 100%;
+          padding: 1rem; }
         .BuildingProgram .hero h1 {
           font-size: 24px; }
         .BuildingProgram .hero h2 {
@@ -111,6 +122,25 @@
             .BuildingProgram .content .section.chapter .chapter-title {
               padding-left: 16px;
               padding-right: 16px; } }
+      .BuildingProgram .content .section.the-temple .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 100%; }
+        .BuildingProgram .content .section.the-temple .gallery .image {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: auto;
+          padding: 1rem;
+          border: 1px solid #FF8F00; }
+          .BuildingProgram .content .section.the-temple .gallery .image:hover {
+            cursor: pointer; }
+          .BuildingProgram .content .section.the-temple .gallery .image .thumbnail {
+            max-width: 100%;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            object-fit: contain; }
       .BuildingProgram .content .section.the-details .Profile, .BuildingProgram .content .section.the-progress .Profile, .BuildingProgram .content .section.the-roadmap .Profile {
         top: calc( 128px - 37px); }
         .BuildingProgram .content .section.the-details .Profile .image, .BuildingProgram .content .section.the-progress .Profile .image, .BuildingProgram .content .section.the-roadmap .Profile .image {
@@ -140,3 +170,40 @@
           margin: 0;
           text-align: center;
           font-weight: 400; }
+  .BuildingProgram .imageModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 90; }
+    .BuildingProgram .imageModal .backdrop {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(255, 255, 255, 0.95);
+      z-index: 90; }
+    .BuildingProgram .imageModal .image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: calc( 100vw - 2rem);
+      height: calc( 100vh - 2rem);
+      z-index: 91;
+      pointer-events: none; }
+      .BuildingProgram .imageModal .image img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        object-fit: contain; }
