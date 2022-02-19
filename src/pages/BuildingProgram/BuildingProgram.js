@@ -9,9 +9,9 @@ import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
 const PROGRESS_VALUES = {
-  annualProgress: 1000,
+  annualProgress: 5368.49,
   annualGoal: 125000,
-  total: 625000,
+  total: 639469.08,
   monthsRemaining: 11,
   donors: 50
 }
@@ -173,7 +173,7 @@ class BuildingProgram extends Component {
                      withoutDropCap />
           </div>
 
-          <div className="section chapter coming-soon" id="coming-soon">
+          {/* <div className="section chapter coming-soon" id="coming-soon">
             <h2 className="chapter-title">Coming Soon</h2>
             
             <p>
@@ -182,9 +182,9 @@ class BuildingProgram extends Component {
             <p>
               Stay tuned for these exciting images! 
             </p>
-          </div>
+          </div> */}
 
-          <div className="section chapter celebrate" id="celebrate" style={{ marginTop: '64px' }}>
+          <div className="section chapter celebrate" id="celebrate" style={{ marginTop: '192px' }}>
             <h2 className="chapter-title">Celebrate with Us</h2>
             
             <p>
