@@ -94,6 +94,18 @@ class News extends Component {
         </div>
 
         <div className="body">
+          <div className="promo-event">
+            <div className="event-title">
+              Laychack Memorial Lenten Matching Challenge
+            </div>
+
+            <div className="event-description">
+              The <em>Laychack Memorial Lenten Matching Challenge</em> - Thanks to the generosity of founding members Joe and Sophia, this Lent we're offering a <strong>$30,000 Matching Challenge</strong> for our Building Program! Now through Pascha, all donations toward our Building Fund will be doubled!
+            </div>
+
+            <Link className="donate-button" to="/buildingprogram" style={{ display: 'block', marginTop: '32px', textAlign: 'center' }}>Contribute today</Link>
+          </div>
+
           { items.map(( item ) => this.renderListItem( item )) }
         </div>
       </div>

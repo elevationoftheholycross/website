@@ -161,6 +161,22 @@
             }
           }
         }
+
+        .promo-event {
+          margin-top: 2rem;
+          padding: 1rem;
+          background-color: rgba( 255, 194, 51, .2 );
+          border: 2px solid #b71c1c;
+
+          .event-title {
+            font-size: 1.2rem;
+            font-family: 'Playfair Display', serif;
+          }
+
+          .event-description {
+            margin-top: .5rem;
+          }
+        }
       }
 
       &.chapter {
