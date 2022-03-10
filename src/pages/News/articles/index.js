@@ -12,6 +12,7 @@ import newsletterMay2021 from './newsletter-may-2021';
 import wineStroll2021 from './wine-stroll-2021';
 import newsletterAugust2021 from './newsletter-august-2021';
 import newsletterDecember2021 from './newsletter-december-2021';
+import newsletterMarch2022 from './newsletter-march-2022';
 
 export default {
   'wine-stroll-2018': wineStroll2018,
@@ -27,5 +28,6 @@ export default {
   'newsletter-may-2021': newsletterMay2021,
   'wine-stroll-2021': wineStroll2021,
   'newsletter-august-2021': newsletterAugust2021,
-  'newsletter-december-2021': newsletterDecember2021
+  'newsletter-december-2021': newsletterDecember2021,
+  'newsletter-march-2022': newsletterMarch2022
 };
