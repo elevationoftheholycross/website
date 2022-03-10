@@ -114,7 +114,7 @@ const newsletterMarch2022 = ({ imagePrefix }) => {
               </h2>
 
               <div className="article-body" style={{ clear: 'all' }}>
-                <p style={{ marginBottom: 0, color: OVERRIDE_COLOR }}>
+                <p style={{ marginBottom: 0 }}>
                   This Lent, thanks to the <strong>generosity of our founding members Joe and Sophia Laychak</strong>, who remembered Holy Cross in a significant bequest, we're able to offer an increased matching donation challenge for our Building Fund – <strong>all donations during Lent up to $30,000 will be matched!</strong> If we can make this match, it will be a huge step toward completing our Phase 1 site improvements. Please consider making an offering toward the building of our new church and expanding our parish mission in honor of Joe and Sophia, who desired to inspire hearts of generosity and service to God in all of us that they themselves so exemplified!
                 </p>
               </div>
