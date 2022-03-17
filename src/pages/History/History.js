@@ -22,7 +22,7 @@ class History extends Component {
             <p>
               The Elevation of the Holy Cross Church is part of the Orthodox
               Church in America, one of the international Christian Orthodox
-              organizations which operate in compliance with the tenants of the
+              organizations which operate in compliance with the tenets of the
               world-wide Orthodox teaching established by the Apostles and the
               Holy Fathers in the first century. The OCA was established from the
               Moscow Russia-based Russian Orthodox Church following the initial
