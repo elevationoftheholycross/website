@@ -9,10 +9,10 @@ import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
 const PROGRESS_VALUES = {
-  annualProgress: 5368.49,
+  annualProgress: 8817.89,
   annualGoal: 125000,
-  total: 639469.08,
-  monthsRemaining: 11,
+  total: 634566.62,
+  monthsRemaining: 10,
   donors: 50
 }
 
