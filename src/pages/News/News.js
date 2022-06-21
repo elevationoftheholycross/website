@@ -99,7 +99,7 @@ class News extends Component {
         </div>
 
         <div className="body">
-          <div className="promo-event">
+          {/* <div className="promo-event">
             <div className="event-title">
               Laychack Memorial Lenten Matching Challenge
             </div>
@@ -109,7 +109,7 @@ class News extends Component {
             </div>
 
             <Link className="donate-button" to="/buildingprogram" style={{ display: 'block', marginTop: '32px', textAlign: 'center' }}>Contribute today</Link>
-          </div>
+          </div> */}
 
           { items.map(( item ) => this.renderListItem( item )) }
         </div>
