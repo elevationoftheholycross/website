@@ -9,10 +9,10 @@ import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
 const PROGRESS_VALUES = {
-  annualProgress: 92341.23,
+  annualProgress: 129615.21,
   annualGoal: 125000,
-  total: 704070.35,
-  monthsRemaining: 4,
+  total: 741344.33,
+  monthsRemaining: 1,
   donors: 50
 }
 
@@ -99,7 +99,7 @@ class BuildingProgram extends Component {
 
             <div className="progress-data">
               <div className="data-item">
-                <div className="data-value">{ PROGRESS_VALUES.donors }</div>
+                <div className="data-value">{ PROGRESS_VALUES.donors }+</div>
                 <div className="data-label">donors</div>
               </div>
               <div className="data-item">
