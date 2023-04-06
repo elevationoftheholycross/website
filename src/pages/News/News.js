@@ -15,6 +15,11 @@ class News extends Component {
   renderList = () => {
     const items = [
       {
+        key: 'newsletter-april-2023',
+        title: 'The Good News - April 2023',
+        subtitle: 'Quarterly Newsletter'
+      },
+      {
         key: 'newsletter-december-2022',
         title: 'The Good News - December 2022',
         subtitle: 'Quarterly Newsletter'
