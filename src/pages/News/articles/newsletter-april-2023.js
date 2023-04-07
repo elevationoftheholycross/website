@@ -70,8 +70,8 @@ const newsletterApril2023 = ({ imagePrefix }) => {
                 </div>
 
                 <p>
-                  On Sunday, 12 March, after Liturgy, Mother Melania, the abbess of Holy Assumption Monastery in Calistoga, CA, gave us a Lenten talk. She emphasized that the goal of Lent is that we learn to love God and others more. She focused on three sins to be combated: gluttony, avarice, and (of course) pride. Gluttony, we should understand, is more than simply eating too much food; it also entails eating “at the wrong times” as well as what she called “dainties” (all of our superfluous snacks). Mother Melania called gluttony a “bedrock passion”, which needs to be corrected by the “bedrock virtue” of self-control. <em>Avarice</em> or coveting is our preoccupation with things (acquiring this, that, and the other because we think that we need them). During Great Lent, almsgiving is our way to combat the sin of avarice, but Mother noted that almsgiving is more than merely giving money; we should also give of our time, which may mean <em>visiting</em> the sick and the needy. <em>Pride</em> consists of our denial of God and our contempt of people. It’s easier for us to recognize the worldly pride that stems from power and money, but spiritual pride is much more innocuous. It’s easy for us to become Pharisees if we focus on the externals of
-Great Lent, especially the fasting rules. To combat our spiritual pride, we must constantly bear in mind that we are sinners, and we must be constantly repenting. Finally, so as to illustrate these notions, Mother Melania read us a children’s story she had written titled <em>Pascha at the Duckpond</em>. The main character is Rigid Rooster, who is so obsessed with the rules of Great Lent that he nearly missed the point of Great Lent – Pascha itself – that Christ has indeed trampled down death by death and has bestowed upon us eternal life.
+                  On Sunday, 12 March, after Liturgy, Mother Melania, the abbess of Holy Assumption Monastery in Calistoga, CA, gave us a Lenten talk. She emphasized that the goal of Lent is that we learn to love God and others more. She focused on three sins to be combated: gluttony, avarice, and (of course) pride. Gluttony, we should understand, is more than simply eating too much food; it also entails eating “at the wrong times” as well as what she called “dainties” (all of our superfluous snacks). Mother Melania called gluttony a “bedrock passion”, which needs to be corrected by the “bedrock virtue” of self-control. <em>Avarice</em> or coveting is our preoccupation with things (acquiring this, that, and the other because we think that we need them). During Great Lent, almsgiving is our way to combat the sin of avarice, but Mother noted that almsgiving is more than merely giving money; we should also give of our time, which may mean <em>visiting</em> the sick and the needy. <em>Pride</em> consists of our denial of God and our contempt of people. It's easier for us to recognize the worldly pride that stems from power and money, but spiritual pride is much more innocuous. It's easy for us to become Pharisees if we focus on the externals of
+Great Lent, especially the fasting rules. To combat our spiritual pride, we must constantly bear in mind that we are sinners, and we must be constantly repenting. Finally, so as to illustrate these notions, Mother Melania read us a children's story she had written titled <em>Pascha at the Duckpond</em>. The main character is Rigid Rooster, who is so obsessed with the rules of Great Lent that he nearly missed the point of Great Lent – Pascha itself – that Christ has indeed trampled down death by death and has bestowed upon us eternal life.
                 </p>
               </div>
             </div>
@@ -89,7 +89,7 @@ Great Lent, especially the fasting rules. To combat our spiritual pride, we must
                 </div>
 
                 <p>
-                  On Sat March 18th, after a memorial liturgy, many of us met at a snow hill just off the Fresh Pond exit on Hwy 50. The roads were clear so the drive didn’t require snow chains. The snow hill wasn’t crowded. The weather was perfect, a windless, sunny day. Many of our young children zipped down the hill on sleds, and some even sat down in their snow pants and slid down the slope on their bottoms. A few dug in the snow and made tiny snowmen. We all had fun enjoying the snow and being together. It was a lovely time. I hope we can do this again next year. Please plan to join us! - Matushka Nina
+                  On Sat March 18th, after a memorial liturgy, many of us met at a snow hill just off the Fresh Pond exit on Hwy 50. The roads were clear so the drive didn't require snow chains. The snow hill wasn't crowded. The weather was perfect, a windless, sunny day. Many of our young children zipped down the hill on sleds, and some even sat down in their snow pants and slid down the slope on their bottoms. A few dug in the snow and made tiny snowmen. We all had fun enjoying the snow and being together. It was a lovely time. I hope we can do this again next year. Please plan to join us! - Matushka Nina
                 </p>
               </div>
             </div>
@@ -103,7 +103,7 @@ Great Lent, especially the fasting rules. To combat our spiritual pride, we must
                 <img src={ require('../../../assets/images/news/newsletter-april-2023-5.png') } alt="OCCIF Board of Directors" />
 
                 <p>
-                  On Monday, February 20, Fr. Timothy welcomed the Board of Directors of the <strong>Orthodox Church Capital Improvement Fund</strong> (OCCIF) to Holy Cross for OCCIF's Annual Meeting. Present at the meeting were the V. Rev.Fr. John Dresko, President; Mat. Theodora Blom, Treasurer; Linda Koshell, Corporate Secretary; and Board Members John Della Monica, Mark Linnehan, and Pdja. Katherine Vitko.  One of the highlights of the meeting was the election of Kathy Pieracci to the OCCIF Board of Directors.  During their lunch break (provided by Kathy, of course!), those present were shown our beautiful chapel, where pictures were taken.  OCCIF has approved Holy Cross for a loan to complete the first phase of its construction project. OCCIF helps parishes, missions, and monastic communities of the canonical jurisdictions of the Orthodox Church in the United States acquire, build, remodel, and refinance church-related properties, furthering the great mission of Christ’s Church.
+                  On Monday, February 20, Fr. Timothy welcomed the Board of Directors of the <strong>Orthodox Church Capital Improvement Fund</strong> (OCCIF) to Holy Cross for OCCIF's Annual Meeting. Present at the meeting were the V. Rev.Fr. John Dresko, President; Mat. Theodora Blom, Treasurer; Linda Koshell, Corporate Secretary; and Board Members John Della Monica, Mark Linnehan, and Pdja. Katherine Vitko.  One of the highlights of the meeting was the election of Kathy Pieracci to the OCCIF Board of Directors.  During their lunch break (provided by Kathy, of course!), those present were shown our beautiful chapel, where pictures were taken.  OCCIF has approved Holy Cross for a loan to complete the first phase of its construction project. OCCIF helps parishes, missions, and monastic communities of the canonical jurisdictions of the Orthodox Church in the United States acquire, build, remodel, and refinance church-related properties, furthering the great mission of Christ's Church.
                 </p>
               </div>
             </div>
@@ -121,7 +121,41 @@ Great Lent, especially the fasting rules. To combat our spiritual pride, we must
                 </div>
 
                 <p>
-                  Following the Celebration of the <strong>Feast of Theophany</strong>, when we commemorate our Lord Jesus Christ’s baptism by John in the Jordan River, faithful from Holy Cross once again traveled to the American River to celebrate the <strong>great blessing of the waters</strong>. On Theophany, we reflect on how He who is without sin cleansed the waters, and through them, all of creation at His baptism. And the Church continues to the present day participating in the sanctification and salvation of the world. The blessing of the waters – an element necessary for life – recognizes that their ultimate source and the source of all life is God Himself. Through this service, not only is our local river blessed, but as the waters flow out to sea, our beautiful state, the ocean and, through the mixing of the waters, the whole creation receives a blessing. How wondrous are Thy works O Lord, in Wisdom hast Thou made them all!
+                  Following the Celebration of the <strong>Feast of Theophany</strong>, when we commemorate our Lord Jesus Christ's baptism by John in the Jordan River, faithful from Holy Cross once again traveled to the American River to celebrate the <strong>great blessing of the waters</strong>. On Theophany, we reflect on how He who is without sin cleansed the waters, and through them, all of creation at His baptism. And the Church continues to the present day participating in the sanctification and salvation of the world. The blessing of the waters – an element necessary for life – recognizes that their ultimate source and the source of all life is God Himself. Through this service, not only is our local river blessed, but as the waters flow out to sea, our beautiful state, the ocean and, through the mixing of the waters, the whole creation receives a blessing. How wondrous are Thy works O Lord, in Wisdom hast Thou made them all!
+                </p>
+              </div>
+            </div>
+
+            <div className="section" style={{ marginBottom: '32px', paddingBottom: '16px', borderBottom: '1px solid rgba( 0, 0, 0, .2 )' }}>
+              <h2 className="title" style={{ color: OVERRIDE_COLOR }}>
+                Progress on our Building Program continues!
+              </h2>
+
+              <div className="article-body" style={{ clear: 'all' }}>
+                <p>
+                  Progress on our Building Program continues.
+                  Currently, our Great Lent matching donation
+                  challenge is underway, and we've already held
+                  several successful fundraising events, such as
+                  the Blini Luncheon and our first-ever Yard
+                  Sale. We plan to hold more fundraising events
+                  this year. 
+                </p>
+
+                <p>
+                  Our permit application is currently under
+                  review by Sacramento County, but our team
+                  has been working hard to respond to all of the
+                  questions and further studies required so we
+                  can start acquiring bids for the work. 
+                </p>
+
+                <p>
+                  Please keep this project in your prayers, as
+                  we hope to obtain approvals from the County
+                  in the coming months, and be able to begin
+                  work on the site improvements phase this
+                  year!
                 </p>
               </div>
             </div>
