@@ -9,9 +9,9 @@ import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
 const PROGRESS_VALUES = {
-  annualProgress: 129615.21,
+  annualProgress: 49643.47,
   annualGoal: 125000,
-  total: 741344.33,
+  total: 809245.33,
   monthsRemaining: 1,
   donors: 50
 }
@@ -98,14 +98,14 @@ class BuildingProgram extends Component {
             </div>
 
             <div className="progress-data">
-              <div className="data-item">
+              {/* <div className="data-item">
                 <div className="data-value">{ PROGRESS_VALUES.donors }+</div>
                 <div className="data-label">donors</div>
-              </div>
-              <div className="data-item">
+              </div> */}
+              {/* <div className="data-item">
                 <div className="data-value">{ PROGRESS_VALUES.monthsRemaining }</div>
                 <div className="data-label">month{ PROGRESS_VALUES.monthsRemaining !== 1 ? 's' : '' } to go</div>
-              </div>
+              </div> */}
               <div className="data-item">
                 <div className="data-value">{ `$${ PROGRESS_VALUES.total.toLocaleString( 'en-US' ) }` }</div>
                 <div className="data-label">
