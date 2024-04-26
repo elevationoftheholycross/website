@@ -16,6 +16,7 @@ import newsletterMarch2022 from './newsletter-march-2022';
 import newsletterDecember2022 from './newsletter-december-2022';
 import newsletterApril2023 from './newsletter-april-2023';
 import newsletterDecember2023 from './newsletter-december-2023';
+import newsletterApril2024 from './newsletter-april-2024';
 
 export default {
   'wine-stroll-2018': wineStroll2018,
@@ -35,5 +36,6 @@ export default {
   'newsletter-march-2022': newsletterMarch2022,
   'newsletter-december-2022': newsletterDecember2022,
   'newsletter-april-2023': newsletterApril2023,
-  'newsletter-december-2023': newsletterDecember2023
+  'newsletter-december-2023': newsletterDecember2023,
+  'newsletter-april-2024': newsletterApril2024
 };
