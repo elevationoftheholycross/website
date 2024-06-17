@@ -44,12 +44,13 @@ class Leadership extends Component {
             <div className="section lay-leadership">
               <h2>Parish Council</h2>
               <ul>
-                <li>Claudia Dubovik, Warden</li>
-                <li>Catherine Plefka, Asst. Warden</li>
+                <li>Fr. Timothy Winegar, President</li>
+                <li>Claudia Dubovik, Vice-President</li>
                 <li>Dawn Heywood, Secretary</li>
                 <li>Janet Helen Ferrari, Treasurer</li>
+                <li>Janese Cederborg</li>
                 <li>David Lane</li>
-                <li>Reader Gabriel Read</li>
+                <li>Gabriel Read</li>
               </ul>
 
               <div>
@@ -97,12 +98,12 @@ const clergy = [
     name: 'Archpriest Thomas Renfree, Associate Pastor',
     bio: 'A former Baptist minister, Fr. Tom was a part of the Evangelical Orthodox movement that brought over two thousand evangelical protestants into the Orthodox Church in 1987.  Fr. Tom was the founding pastor of St. Athanasius Orthodox Church in Elk Grove, and later joined Holy Cross as an assistant pastor in 1995.  In his secular work, Fr. Tom has also worked tirelessly as an advocate for effective alcohol and substance abuse prevention and treatment programs and other behavioral health support programs.'
   },
-  {
-    image: 'fr-andrew.jpg',
-    imageDir: 'profile',
-    name: 'Priest Andrew Jacobs',
-    bio: 'Fr. Andrew currently serves at the pastor of the St. Silouan Mission in the Marysville/Yuba City area while remaining assigned to Holy Cross.  Fr. Andrew and Mat. Elizabeth came to Holy Cross in 2016 after faithfully serving the St. Susanna parish in Sonora for many years.  Fr. Andrew is also serves as the spiritual advisor of the Archangel Michael Food Closet ministry.'
-  },
+  // {
+  //   image: 'fr-andrew.jpg',
+  //   imageDir: 'profile',
+  //   name: 'Priest Andrew Jacobs',
+  //   bio: 'Fr. Andrew currently serves at the pastor of the St. Silouan Mission in the Marysville/Yuba City area while remaining assigned to Holy Cross.  Fr. Andrew and Mat. Elizabeth came to Holy Cross in 2016 after faithfully serving the St. Susanna parish in Sonora for many years.  Fr. Andrew is also serves as the spiritual advisor of the Archangel Michael Food Closet ministry.'
+  // },
   {
     image: 'fr-david.jpg',
     imageDir: 'profile',
@@ -113,13 +114,13 @@ const clergy = [
     image: 'fr-stephen.jpg',
     imageDir: 'profile',
     name: 'Archpriest Stephen Tumbas',
-    bio: 'Fr. Stephen and his wife Matushka Betsy Tumbas joined Holy Cross in 2017 after Fr. Stephen’s retirement as rector of St. Sava Serbian Orthodox Church in Jackson.'
+    bio: 'Fr. Stephen and his wife Matushka Betsy Tumbas joined our community in 2017 after Fr. Stephen\'s retirement as rector of St. Sava Serbian Orthodox Church in Jackson. Fr. Steve remains a priest of the Serbian Orthodox Diocese of Western America, but has become very much a part of our parish family as well.'
   },
-  {
-    image: 'dn-seraphim.jpg',
-    imageDir: 'profile',
-    name: 'Deacon Seraphim (Ray) Bartneck'
-  },
+  // {
+  //   image: 'dn-seraphim.jpg',
+  //   imageDir: 'profile',
+  //   name: 'Deacon Seraphim (Ray) Bartneck'
+  // },
   {
     image: 'dn-joseph.jpg',
     imageDir: 'profile',
