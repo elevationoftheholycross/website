@@ -36,7 +36,13 @@
       text-align: center;
       font-size: 1rem; }
   .News .content-container.article {
-    max-width: 800px; }
+    max-width: 800px;
+    width: 100%; }
+    .News .content-container.article.pdf {
+      padding: 16px; }
+      .News .content-container.article.pdf canvas {
+        width: 800px !important;
+        height: calc( 800 / 612* 792px) !important; }
     .News .content-container.article .body {
       max-width: 100%; }
       .News .content-container.article .body img {

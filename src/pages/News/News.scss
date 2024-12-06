@@ -63,6 +63,16 @@
 
   .content-container.article {
     max-width: 800px;
+    width: 100%;
+
+    &.pdf {
+      padding: 16px;
+
+      canvas {
+        width: 800px !important;
+        height: calc( 800 / 612* 792px ) !important;
+      }
+    }
 
     .body {
       max-width: 100%;
