@@ -9,9 +9,9 @@ import Profile from '../../components/Profile';
 import AplosModal from '../../components/AplosModal';
 
 const PROGRESS_VALUES = {
-  annualProgress: 98942.05,
+  annualProgress: 4389.90,
   annualGoal: 125000,
-  total: 976648.48,
+  total: 1025183.99,
   monthsRemaining: 1,
   donors: 50
 }
@@ -170,7 +170,7 @@ class BuildingProgram extends Component {
             <h2 className="chapter-title">The Progress</h2>
             <Profile imageSrc="https://i.imgur.com/Eugz49Y.jpg"
                      altText="The Progress"
-                     markdown={ `We have raised over $100,000 each year for the past four years, bringing us to **over $600,000 in our building fund**. Our **fundraising goal** over the next two years is to **continue to raise at least $100,000 per year *and* enough to complete the [Phase One](#the-roadmap) work without a loan**.` }
+                     markdown={ `We have raised over $100,000 each year for the past four years, bringing us to **over $1,000,000 in our building fund**. Our **fundraising goal** over the next two years is to **continue to raise at least $100,000 per year *and* enough to complete the [Phase One](#the-roadmap) work without a loan**.` }
                      withoutCross />
           </div>
 
