@@ -74,11 +74,17 @@ class Leadership extends Component {
 }
 
 const clergy = [
-  {
+  /*{
     image: 'archbishop-benjamin.jpg',
     imageDir: 'profile',
     name: 'The Most Reverend Benjamin (Peterson), Archbishop of San Francisco and the West',
     bio: 'Archbishop Benjamin was born in 1954 and was baptized at Holy Virgin Mary Cathedral, Los Angeles, CA on April 27, 1972.  In 1982, he was awarded a Master of Divinity degree and Certificate in Liturgical Music from Saint Vladimir Seminary.  A prolific musician, he served as choirmaster at parishes in Detroit, MI and Los Angeles and as chairman of the Orthodox Church in America’s Department of Liturgical Music.  He was ordained to the Holy Diaconate in 1987 at his home parish, which he served for 10 years as deacon and youth and education director.  The following year he was tonsured to the lesser schema at Saint Tikhon Monastery, South Canaan, PA.  On July 19, 1997, he was ordained to the Holy Priesthood by Bishop Tikhon (Fitzgerald).  In 1999, Igumen Benjamin was transferred to the Diocese of Alaska, where he served as dean of Saint Innocent Cathedral and later as administrative dean of Saint Herman Seminary, Kodiak, AK.  In January 2004, he was reassigned to Holy Virgin Mary Cathedral, Los Angeles, and appointed Chancellor of the Diocese of the West.  Archimandrite Benjamin was elected to the episcopacy in March 2004 as Bishop of Berkeley, Auxiliary for the Diocese of the West, and consecrated at historic Holy Trinity Cathedral on Saturday, May 1, 2004.  Following the retirement of His Grace, Bishop Tikhon of San Francisco, Los Angeles and the West, a diocesan assembly nominated Bishop Benjamin as ruling hierarch on January 31, 2007.  The Holy Synod of Bishops canonically elected him as Bishop of San Francisco and the West in March 2007.  He was elevated to the rank of Archbishop on May 9, 2012.'
+  },*/
+  {
+    image: 'bishop-vasily.jpg',
+    imageDir: 'profile',
+    name: 'The Right Reverend Vasily, Bishop of San Francisco and the West - The Diocese of the West',
+    bio: 'His Grace Bishop Vasily was born to a Russian family in Riga, Latvia, and relocated to the United States in 1999 after completing his undergraduate studies. He entered Saint Vladimir’s Orthodox Theological Seminary (SVOTS) in Yonkers, NY with the blessing of late Archbishop Dmitri (Royster) of Dallas. After finishing seminary, he enrolled in a doctoral program in Liturgical Studies at the University of Notre Dame, where in 2012 he defended his dissertation on the history and origins of the Byzantine rite for the consecration of churches. He taught at Holy Trinity Orthodox Seminary (Jordanville, NY) from 2011 to 2020, and joined the full-time faculty at Saint Vladimir’s Seminary in August 2020.  On the Feast of the Exaltation of the Cross, September 14, 2021, at the Seminary chapel, he was ordained to the holy diaconate through the hand of His Beatitude Metropolitan Tikhon. Three years later, His Beatitude ordained him to the priesthood on the Feast of the Exaltation of the Cross, September 14, 2024, at Three Hierarchs Chapel. On January 17 2025, he was tonsured to the small schema at Saint Tikhon of Zadonsk Monastery (South Canaan, PA) with the name Vasily. On Wednesday, July 16, 2025, during the 21st All-American Council, the Diocese of the West nominated the Very Reverend Archimandrite Vasily (Permiakov) as their candidate for Bishop of San Francisco and the West. That same day, the Holy Synod of Bishops, canonically elected Archimandrite Vasily as Bishop of San Francisco and the West. His Grace was ordained to the episcopate on Saturday, August 16, 2025.'
   },
   {
     image: 'fr-timothy.jpg',
