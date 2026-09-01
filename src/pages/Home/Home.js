@@ -179,7 +179,8 @@ class Home extends Component {
                   Contribute directly to the Food Closet, the building fund, your pledge, and other ministries.
                   <p>
                     {/*<TithelyButton text="Donate Online" />*/}
-                    <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button>
+                    {/* <button className="donate-button" onClick={ this.toggleAplosModal }>Donate online</button> */}
+                    <a href="https://elevation-of-the-holy-cross-orthodox-church-edit.raiselysite.com/" target="_blank" rel="noopener noreferer" className="donate-button">Donate online</a>
                   </p>
                 </span>
               </div>

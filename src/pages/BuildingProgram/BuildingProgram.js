@@ -125,7 +125,8 @@ class BuildingProgram extends Component {
               </div>
             </div> */}
 
-            <button className="donate-button" style={{ display: 'block', width: '100%', marginTop: '32px' }} onClick={ this.toggleAplosModal }>Contribute today</button>
+            {/* <button className="donate-button" style={{ display: 'block', width: '100%', marginTop: '32px' }} onClick={ this.toggleAplosModal }>Contribute today</button> */}
+            <a href="https://elevation-of-the-holy-cross-orthodox-church-edit.raiselysite.com/" target="_blank" rel="noopener noreferer" className="donate-button" style={{ display: 'block', marginTop: '32px', textAlign: 'center', lineHeight: 'normal' }}>Contribute today</a>
           </div>
 
           <div className="section chapter the-temple" style={{ marginTop: '32px' }}>
@@ -205,8 +206,9 @@ class BuildingProgram extends Component {
               contribute to the building up of Christ’s Holy Church in Sacramento. 
             </p>
 
-            <div style={{ width: '100%', padding: '0 16px' }}>
-              <button className="donate-button" style={{ display: 'block', margin: '32px auto 0' }} onClick={ this.toggleAplosModal }>Contribute today</button>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', width: '100%', marginTop: '32px', padding: '0 16px' }}>
+              {/* <button className="donate-button" style={{ display: 'block', margin: '32px auto 0' }} onClick={ this.toggleAplosModal }>Contribute today</button> */}
+              <a href="https://elevation-of-the-holy-cross-orthodox-church-edit.raiselysite.com/" target="_blank" rel="noopener noreferer" className="donate-button" style={{ display: 'inline-block', margin: 'auto 0', textAlign: 'center', lineHeight: 'normal' }}>Contribute today</a>
             </div>
           </div>
 
